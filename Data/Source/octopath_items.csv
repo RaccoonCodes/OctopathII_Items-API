@@ -1,0 +1,205 @@
+Name,Description,Buy_Price_Leaves,Sell_Price_Leaves,Item_Type
+Healing Grape,Restores HP to a single ally.,50,5,Consumables
+Healing Grape (M),Greatly restores HP to a single ally.,260,26,Consumables
+Healing Grape Bunch,Restores HP to all allies.,720,72,Consumables
+Shady Grape Bunch,"Greatly restores HP to all allies, but reduces physical defense for 3 turns.",1480,148,Consumables
+Inspiriting Plum,Restores SP to a single ally.,240,24,Consumables
+Inspiriting Plum (M),Greatly restores SP to a single ally.,900,90,Consumables
+Inspiriting Plum Basket,Restores SP to all allies.,2160,216,Consumables
+Shady Inspiriting Plum,"Greatly restores SP to all allies, but reduces elemental defense for 3 turns.",4460,446,Consumables
+Energizing Pomegranate,Restores BP to a single ally.,300,30,Consumables
+Energizing Pomegranate (M),Greatly restores BP to a single ally.,760,76,Consumables
+Energizing Pomegranate (L),Massively restores BP to a single ally.,3360,336,Consumables
+Shady Energizing Pomegranate,,4980,498,Consumables
+Empowering Lychee,Fills the latent power gauge of a single ally.,300,30,Consumables
+Empowering Lychee (M),Greatly fills the latent power gauge of a single ally.,1100,110,Consumables
+Empowering Lychee (L),Massively fills the latent power gauge of a single ally.,2300,230,Consumables
+Refreshing Jam,Fully restores HP and SP to a single ally.,15000,1500,Consumables
+Reinforcing Jam,"Fully restores BP to a single ally, and fills their latent power gauge.",15000,2500,Consumables
+Revitalizing Jam,"Fully restores HP, SP, and BP to a single ally.",20000,2000,Consumables
+Rejuvenating Jam,"Fully restores HP, SP, and BP to a single ally, and fills their latent power gauge.",30000,3000,Consumables
+Olive of Life,Revives and restores HP to a single fallen ally.,500,50,Consumables
+Olive of Life (M),Revives and greatly restores HP to a single fallen ally.,3000,300,Consumables
+Olive of Life (L),Revives and fully restores HP to a single fallen ally.,20000,2000,Consumables
+Almighty Olive,Revives and fully restores HP to all allies.,60000,6000,Consumables
+Herb of Healing,Cures a single ally of poison.,30,3,Consumables
+Herb of Clamor,Cures a single ally of silence.,30,3,Consumables
+Herb of Light,Cures a single ally of blindness.,30,3,Consumables
+Herb of Clarity,Cures a single ally of confusion.,30,3,Consumables
+Herb of Awakening,Awakens a single sleeping ally.,30,3,Consumables
+Herb of Valor,Cures a single ally of terror.,30,3,Consumables
+Herb of Revival,Revives a single unconscious ally.,30,3,Consumables
+Herb Elixir,Cures a single ally of status ailments.,600,60,Consumables
+Bottle of Poison Dust,Inflicts poison on a single foe with a given probability.,600,60,Consumables
+Bottle of Blinding Dust,Inflicts blindness on a single foe with a given probability.,600,60,Consumables
+Bottle of Befuddling Dust,Inflicts confusion on a single foe with a given probability.,600,60,Consumables
+Bottle of Sleeping Dust,Inflicts sleep on a single foe with a given probability.,600,60,Consumables
+Bottled Nightmares,"Inflicts poison, blindness, confusion, and sleep on a single foe with a given probability.",3000,100,Consumables
+Fire Soulstone,Deals fire damage to all foes.,700,70,Consumables
+Fire Soulstone (M),Deals great fire damage to all foes.,1700,170,Consumables
+Fire Soulstone (L),Deals massive fire damage to all foes.,6300,630,Consumables
+Ice Soulstone,Deals ice damage to all foes.,700,70,Consumables
+Ice Soulstone (M),Deals great ice damage to all foes.,1700,170,Consumables
+Ice Soulstone (L),Deals massive ice damage to all foes.,6300,630,Consumables
+Thunder Soulstone,Deals lightning damage to all foes.,700,70,Consumables
+Thunder Soulstone (M),Deals great lightning damage to all foes.,1700,170,Consumables
+Thunder Soulstone (L),Deals massive lightning damage to all foes.,6300,630,Consumables
+Wind Soulstone,Deals wind damage to all foes.,700,70,Consumables
+Wind Soulstone (M),Deals great wind damage to all foes.,1700,170,Consumables
+Wind Soulstone (L),Deals massive wind damage to all foes.,6300,630,Consumables
+Light Soulstone,Deals light damage to all foes.,700,70,Consumables
+Light Soulstone (M),Deals great light damage to all foes.,1700,170,Consumables
+Light Soulstone (L),Deals massive light damage to all foes.,6300,630,Consumables
+Shadow Soulstone,Deals dark damage to all foes.,700,70,Consumables
+Shadow Soulstone (M),Deals great dark damage to all foes.,1700,170,Consumables
+Shadow Soulstone (L),Deals massive dark damage to all foes.,6300,630,Consumables
+Almighty Soulstone,"Deals highly powerful non-elemental damage to all foes, and reduces their Shield Points regardless of their weak points.",6300,630,Consumables
+Ancient Sentinel Core,Raises the elemental attack and physical defense of a single ally for 2 turns.,6300,630,Consumables
+Primeval Horn Elixir,Raises the physical attack and elemental attack of a single ally for 2 turns.,6300,630,Consumables
+Ruinous Relic,Deals massive damage to all foes.,35000,3500,Consumables
+Ancient Cursed Talisman,Inflicts all foes with various effects that make them vulnerable to attacks for 2 turns.,5000,500,Consumables
+Decaying Dragon's Essence,"Deal non-elemental damage to a single foe, and reduce their Shield Points by 4 regardless of their weak points.",40000,4000,Consumables
+Herb-of-Grace Bud,Cures a single ally of petrification.,1980,198,Consumables
+Wriggling Root,"Fully restores HP to a single ally, and cures their status ailments.",20000,2000,Consumables
+Grail of Life,Revives and fully restores HP and SP to all allies.,30000,3000,Consumables
+Candy,Restores HP to a single ally.,10,5,Consumables
+Azuki Porridge,Restores HP to a single ally for 3 turns. Restoration occurs after they perform an action.,500,250,Consumables
+Tree Nut,Restores SP to a single ally.,10,5,Consumables
+Forbidden Elixir,Do NOT drink.,3000,1500,Consumables
+Red Apple,Fully restores BP to a single ally.,30,10,Consumables
+STuFfeD ToY,Won't you play with me?,100,50,Consumables
+Handmade Rice Ball,Restores HP to a single ally.,50,25,Consumables
+Raspberry,Restores HP and SP to a single ally.,20,10,Consumables
+Wheat Bread,Restores HP to a single ally.,20,10,Consumables
+Bewitching Perfume,Makes a single ally the target of single-target enemy attacks for 2 turns.,500,250,Consumables
+Homemade Cake,"Restores HP to a single ally, and poisons them for 1 turn.",2000,50,Consumables
+Exotic Remedy,Fully restores SP to a single ally.,2000,1000,Consumables
+Bottled Toxins,Poisons a single foe for 5 turns.,2000,1000,Consumables
+Noxious Needle,Poisons and blinds a single foe for 2 turns.,100,50,Consumables
+Slumber Sage,An herb used to soothe the ailing.,500,250,Consumables
+Herb of Serenity,A valuable herb used to soothe the ailing.,5000,2500,Consumables
+Lump of Silver,Partitio's first purchase. Fetches a fair price if sold.,4000,2000,Sellables
+Purse of Hope,Contains Agnea's savings for her journey. Fetches a fair price if sold.,10000,10000,Sellables
+Scorched Horseshoe,Fetches a modest price if sold.,100,50,Sellables
+Stuffed Toy,Fetches a modest price if sold.,100,50,Sellables
+Glass Marble,Fetches a modest price if sold.,10,5,Sellables
+Handkerchief,Fetches a modest price if sold.,20,10,Sellables
+Thick Tome,Fetches a fair price if sold.,3000,1500,Sellables
+Hairbrush,Fetches a modest price if sold.,300,150,Sellables
+Light Coin Pouch,Fetches a modest price if sold.,200,100,Sellables
+Chipped Dish,Fetches a modest price if sold.,50,25,Sellables
+Crimson Rose,Fetches a fair price if sold.,1800,900,Sellables
+Silk Handkerchief,Fetches a modest price if sold.,1200,600,Sellables
+Poetry of the Soul,Fetches a high price if sold.,50000,25000,Sellables
+Rich Ale,Fetches a modest price if sold.,20,10,Sellables
+Complex Tome,Fetches a fair price if sold.,2000,1000,Sellables
+Scrap Iron,Fetches a modest price if sold.,100,80,Sellables
+Cog,Fetches a modest price if sold.,50,25,Sellables
+Heavy Book,Fetches a fair price if sold.,4200,2100,Sellables
+Rare Cog,Fetches a high price if sold.,8000,4000,Sellables
+Stone,Fetches a modest price if sold.,2,1,Sellables
+Small Silver Ore,Fetches a fair price if sold.,2400,1200,Sellables
+Large Silver Ore,Fetches a high price if sold.,12800,6400,Sellables
+Skystone,Fetches a high price if sold.,10000,5000,Sellables
+Aged Wine,Fetches a fair price if sold.,1200,600,Sellables
+Introduction to Trade,Fetches a fair price if sold.,2000,1000,Sellables
+Gold Nugget,Fetches a high price if sold.,36000,18000,Sellables
+Alrond's Promissory Note,Fetches a high price if sold.,200000,100000,Sellables
+Dumbbell,Fetches a fair price if sold.,2000,1000,Sellables
+Thick Magic Tome,Fetches a fair price if sold.,5000,2500,Sellables
+Sunken Gold Statue,Fetches a high price if sold.,100000,50000,Sellables
+Silver Ingot,Fetches a fair price if sold.,6000,3000,Sellables
+Antique Coin,Fetches a fair price if sold.,3000,1500,Sellables
+Old Cloth,Fetches a fair price if sold.,10,1,Sellables
+Rare Stone,Fetches a fair price if sold.,400,200,Sellables
+Vivid Jewel,Fetches a fair price if sold.,6000,3000,Sellables
+Heavy Coin Pouch,Fetches a fair price if sold.,4400,2200,Sellables
+Silver-Filled Pouch,Fetches a fair price if sold.,5600,2800,Sellables
+Silver-Rimmed Monocle,Fetches a fair price if sold.,7200,3600,Sellables
+Gold Pocket Watch,Fetches a fair price if sold.,18000,9000,Sellables
+Gold Ring,Fetches a fair price if sold.,4800,2400,Sellables
+Curious Antique,Fetches a fair price if sold.,17000,8500,Sellables
+Dazzling Artwork,Fetches a fair price if sold.,30000,15000,Sellables
+Silver Coin,Fetches a fair price if sold.,1,1,Sellables
+Empty Coin Pouch,Fetches a fair price if sold.,10,1,Sellables
+Handmade Bouquet,Fetches a fair price if sold.,2000,1000,Sellables
+Old Locket,Fetches a fair price if sold.,100,50,Sellables
+Gold Dust,Fetches a fair price if sold.,50000,5000,Sellables
+Lousy Rock,Fetches a fair price if sold.,2000,650,Sellables
+"Inventor's Handbook, Volume I",Fetches a fair price if sold.,1000,43,Sellables
+Nourishing Nut,Increases maximum HP.,1000,100,Nuts
+Nourishing Nut (M),Greatly increases maximum HP.,2400,240,Nuts
+Nourishing Nut (L),Massively increases maximum HP.,5760,576,Nuts
+Invigorating Nut,Increases maximum SP.,1000,100,Nuts
+Invigorating Nut (M),Greatly increases maximum SP.,2400,240,Nuts
+Invigorating Nut (L),Massively increases maximum SP.,5760,576,Nuts
+Fortifying Nut,Increases physical attack.,1000,100,Nuts
+Fortifying Nut (M),Greatly increases physical attack.,2400,240,Nuts
+Fortifying Nut (L),Massively increases physical attack.,5760,576,Nuts
+Tough Nut,Increases physical defense.,1000,100,Nuts
+Tough Nut (M),Greatly increases physical defense.,2400,240,Nuts
+Tough Nut (L),Massively increases physical defense.,5760,576,Nuts
+Magic Nut,Increases elemental attack.,1000,100,Nuts
+Magic Nut (M),Greatly increases elemental attack.,2400,240,Nuts
+Magic Nut (L),Massively increases elemental attack.,5760,576,Nuts
+Resistant Nut,Increases elemental defense.,1000,100,Nuts
+Resistant Nut (M),Greatly increases elemental defense.,2400,240,Nuts
+Resistant Nut (L),Massively increases elemental defense.,5760,576,Nuts
+Sharp Nut,Increases accuracy.,1000,100,Nuts
+Sharp Nut (M),Greatly increases accuracy.,2400,240,Nuts
+Sharp Nut (L),Massively increases accuracy.,5760,576,Nuts
+Slippery Nut,Increases evasion.,1000,100,Nuts
+Slippery Nut (M),Greatly increases evasion.,2400,240,Nuts
+Slippery Nut (L),Massively increases evasion.,5760,576,Nuts
+Critical Nut,Increases critical hit rate.,1000,100,Nuts
+Critical Nut (M),Greatly increases critical hit rate.,2400,240,Nuts
+Critical Nut (L),Massively increases critical hit rate.,5760,576,Nuts
+Light Nut,Increases speed.,1000,100,Nuts
+Light Nut (M),Greatly increases speed.,2400,240,Nuts
+Light Nut (L),Massively increases speed.,5760,576,Nuts
+Grape Leaf,An ingredient for medicinal concoctions. Restores HP.,40,8,Materials
+Plum Leaf,An ingredient for medicinal concoctions. Restores SP.,200,40,Materials
+Pomegranate Leaf,An ingredient for medicinal concoctions. Restores BP.,1000,200,Materials
+Mighty Leaf,An ingredient for medicinal concoctions. Raises physical attack.,300,60,Materials
+Fool's Leaf,An ingredient for medicinal concoctions. Reduces likelihood of being targeted by foes.,100,20,Materials
+Cleansing Leaf,An ingredient for medicinal concoctions. Nullifies status ailments.,40,8,Materials
+Warding Leaf,An ingredient for medicinal concoctions. Raises elemental defense.,100,20,Materials
+Whimsical Leaf,An ingredient for medicinal concoctions. Affects action order.,190,38,Materials
+Dual Leaf,An ingredient for medicinal concoctions. Restores HP after performing an action during the day and restores SP after performing an action at night.,150,30,Materials
+Blusterbloom,An ingredient for hazardous concoctions. Deals wind-based damage.,60,12,Materials
+Lily of the Light,An ingredient for hazardous concoctions. Deals light-based damage.,60,12,Materials
+Darkdelion,An ingredient for hazardous concoctions. Deals dark-based damage.,60,12,Materials
+Forget-Me-Do,An ingredient for hazardous concoctions. Nullifies random augmenting effects.,150,30,Materials
+Sticky Flower,An ingredient for hazardous concoctions. Reduces speed and evasion.,100,20,Materials
+Fumbling Flower,An ingredient for hazardous concoctions. Reduces critical rate.,100,20,Materials
+Dreamy Flower,An ingredient for hazardous concoctions. Puts target to sleep.,1200,240,Materials
+Enfeebling Flower,An ingredient for hazardous concoctions. Extends duration of status ailments.,150,30,Materials
+Dual Flower,An ingredient for hazardous concoctions. Confuses target during the day and blinds them at night.,1200,240,Materials
+Diffusing Serum,An ingredient for concoctions. Extends the reach of effects to all.,3000,600,Materials
+Strengthening Serum,An ingredient for concoctions. Enhances effects.,4000,800,Materials
+Jerky,Restores a small amount of HP and SP to a single ally.,200,100,Meats
+Quality Jerky,Restores HP and SP to a single ally.,600,300,Meats
+Superior Jerky,Restores a moderate amount of HP and SP to a single ally.,1200,600,Meats
+Aromatic Jerky,Restores HP and SP to a single ally.,500,250,Meats
+Snowy Stew,"Restores HP to a single ally. Then, for 3 turns, restores their HP after they perform an action.",500,250,Meats
+Mountain Sausage,Restores HP to a single ally and raises their physical attack for 3 turns.,1000,600,Meats
+Three-Star Terrine,Restores HP to a single ally and raises their elemental attack for 2 turns.,1400,700,Meats
+Island Skewer,Restores HP to a single ally and raises their physical defense for 3 turns.,800,400,Meats
+Seafood Paella,Restores HP and BP to a single ally.,1200,600,Meats
+Spicy Offal Stew,Restores HP to a single ally and fills their latent power gauge.,1000,500,Meats
+Wild Steak,Restores HP to a single ally and raises their physical attack and elemental attack for 2 turns.,1200,600,Meats
+Breezy Beef Stew,"Restores HP to a single ally. Then, for 3 turns, restores their SP after they perform an action.",800,400,Meats
+Grilled Chicken,Restores HP to a single ally and raises their evasion and speed for 3 turns.,600,300,Meats
+Beast Liver,Restores BP to a single ally and raises their accuracy and critical rate for 5 turns.,1200,600,Meats
+Creamy Sauté,Restores a moderate amount of SP to a single ally and raises their elemental attack for 3 turns.,800,400,Meats
+Salted Seafood,Restores a large amount of SP to a single ally and raises their elemental defense for 5 turns.,1600,800,Meats
+Bone,Raises a single ally's physical defense for 4 turns.,400,200,Meats
+Metal Medley,Raises a single ally's elemental defense for 4 turns.,400,200,Meats
+Stone-Roasted Rice,Raises a single ally's elemental attack for 4 turns.,600,300,Meats
+Salad,Raises a single ally's physical defense and elemental defense for 3 turns.,700,350,Meats
+Elemental Soup,Raises a single ally's elemental attack for 4 turns.,800,400,Meats
+Spicy Jerky,Raises a single ally's physical attack and elemental attack for 3 turns.,1000,500,Meats
+Rotten Meat,"Poisons a single ally for 3 turns, but raises their physical attack and elemental attack for 3 turns.",10,5,Meats
+Perfect Jerky,Restores a large amount of HP and SP to a single ally.,1600,800,Meats
+Jewel Cake,Use during battle to increase experience gained.,10000,5000,Meats
+Octopath Bowl,Grants a single ally a random positive status effect.,10000,5000,Meats
