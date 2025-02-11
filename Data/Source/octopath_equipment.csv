@@ -1,0 +1,526 @@
+Name,Maximum_HP,Maximum_SP,Physical_Attack,Elemental_Attack,Physical_Defense,Elemental_Defense,Accuracy,Speed,Critical,Evasion,Effect,Buy_Price_Leaves,Sell_Price_Leaves,Source(s),Equipment_Type
+Conqueror's Sword,0.0,0.0,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Raise physical attack by 250 against broken foes.,150000,100000,0,Swords
+Serpent Slayer,0.0,0.0,420.0,0.0,0.0,0.0,-75.0,0.0,-150.0,0.0,0,80000,16000,0,Swords
+Battle-Tested Blade,0.0,0.0,400.0,0.0,0.0,0.0,0.0,0.0,120.0,0.0,Equip effect: Raises potency of physical skills.,100000,20000,0,Swords
+Lost Tribe's Blade,0.0,0.0,386.0,0.0,-101.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to instantly kill target.,65000,13000,0,Swords
+Eclipse Edge,0.0,0.0,352.0,0.0,0.0,0.0,-75.0,0.0,0.0,0.0,Equip effect: Raises potency of dark-based attacks.,80000,16000,0,Swords
+Sword of Oaths,0.0,0.0,349.0,0.0,0.0,0.0,0.0,0.0,0.0,104.0,Attack effect: Slim chance to reduce target's physical attack.,65000,13000,Side Story: Ort's Next Chapter,Swords
+Divine Splendor,0.0,0.0,345.0,0.0,0.0,0.0,0.0,110.0,0.0,0.0,0,65000,13000,0,Swords
+Expert's Obsidian Edge,0.0,0.0,343.0,0.0,0.0,0.0,105.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental defense.,65000,13000,0,Swords
+Giant's Blade,0.0,0.0,323.0,0.0,0.0,0.0,-65.0,0.0,0.0,0.0,0,56000,11200,0,Swords
+Forbidden Blade,0.0,0.0,322.0,0.0,0.0,0.0,0.0,77.0,0.0,0.0,Attack effect: Slim chance to raise target's physical attack.,80000,16000,0,Swords
+Skypiercer,0.0,0.0,320.0,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0,60000,12000,0,Swords
+Sanctum Sword,0.0,0.0,319.0,0.0,0.0,0.0,0.0,98.0,0.0,0.0,0,60000,12000,0,Swords
+Keepsake Sword,0.0,0.0,312.0,0.0,0.0,0.0,0.0,0.0,86.0,0.0,Attack effect: Slim chance to reduce target's evasion.,55000,11000,0,Swords
+Hypno Sword,0.0,0.0,310.0,0.0,0.0,0.0,0.0,0.0,0.0,90.0,Attack effect: Slim chance to put target to sleep.,55000,11000,0,Swords
+Evil Slayer,0.0,0.0,305.0,0.0,0.0,0.0,52.0,0.0,52.0,0.0,0,55000,11000,0,Swords
+Starsplitter,0.0,0.0,296.0,0.0,0.0,0.0,0.0,0.0,91.0,0.0,Attack effect: Slim chance to reduce target's physical defense.,55000,11000,0,Swords
+Ogre's Bane,0.0,0.0,294.0,0.0,0.0,0.0,0.0,0.0,88.0,0.0,0,56000,11200,0,Swords
+Bastard Sword,0.0,0.0,292.0,0.0,0.0,0.0,87.0,0.0,0.0,0.0,0,55000,11000,0,Swords
+Great Blade,0.0,0.0,205.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,0,36000,7200,0,Swords
+Guardian's Iceblade,0.0,0.0,203.0,0.0,0.0,0.0,0.0,0.0,0.0,41.0,Equip effect: Raises potency of ice-based attacks.,37000,7400,0,Swords
+Bloodsucker,0.0,0.0,199.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover HP equivalent to 25% of the damage dealt.,55000,11000,0,Swords
+Soulsucker,0.0,0.0,199.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover SP equivalent to 1% of the damage dealt.,55000,11000,0,Swords
+Aegis Sword,0.0,0.0,197.0,0.0,0.0,0.0,0.0,59.0,0.0,0.0,0,37000,7400,0,Swords
+Master Rod,0.0,0.0,196.0,0.0,0.0,0.0,0.0,57.0,0.0,0.0,Attack effect: Slim chance to reduce target's speed.,36000,7200,Side Story: A Devilishly Delicious Dish,Swords
+Firestarter,0.0,0.0,195.0,298.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of fire-based attacks.,65000,13000,0,Swords
+Clan Mei Sword,0.0,0.0,192.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's accuracy.,36000,7200,0,Swords
+Stonesplitter,0.0,0.0,184.0,0.0,0.0,0.0,0.0,0.0,56.0,0.0,0,32000,6400,0,Swords
+Enchanted Edge,0.0,0.0,183.0,140.0,0.0,0.0,0.0,0.0,0.0,0.0,0,33000,6600,0,Swords
+Crescent Saber,0.0,0.0,123.0,0.0,0.0,0.0,36.0,0.0,0.0,0.0,0,23000,4600,0,Swords
+Reaper's Blade,0.0,0.0,119.0,0.0,0.0,0.0,34.0,0.0,0.0,0.0,Attack effect: Slim chance to instantly kill target.,22000,4400,0,Swords
+Quartz Blade,0.0,0.0,118.0,70.0,0.0,0.0,-55.0,0.0,0.0,0.0,0,22000,4400,0,Swords
+Warrior's Sword,0.0,0.0,117.0,0.0,0.0,0.0,0.0,35.0,0.0,0.0,0,22000,4400,0,Swords
+Little Crow,0.0,0.0,112.0,0.0,0.0,0.0,0.0,0.0,34.0,0.0,0,21000,4200,0,Swords
+Refined Sword,0.0,0.0,107.0,0.0,0.0,0.0,0.0,32.0,0.0,0.0,0,20000,4000,0,Swords
+Heavy Blade,0.0,0.0,80.0,0.0,0.0,0.0,-55.0,0.0,0.0,0.0,0,15000,3000,0,Swords
+Champion's Sword,0.0,0.0,70.0,0.0,0.0,0.0,18.0,0.0,0.0,0.0,0,11000,2200,0,Swords
+Heretic's Greatsword,0.0,0.0,69.0,0.0,0.0,0.0,-40.0,0.0,0.0,0.0,Equip effect: Raises potency of dark-based attacks.,9000,1800,0,Swords
+Magic Eater,0.0,0.0,68.0,0.0,0.0,0.0,0.0,0.0,0.0,17.0,Attack effect: Slim chance to reduce target's elemental attack.,11000,2200,0,Swords
+Silver Sword,0.0,0.0,59.0,0.0,0.0,0.0,0.0,13.0,0.0,0.0,0,9000,1800,0,Swords
+Guard's Saber,0.0,0.0,54.0,0.0,0.0,0.0,12.0,0.0,0.0,0.0,0,6500,1300,0,Swords
+Spirit Scimitar,0.0,0.0,52.0,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0,7600,1520,0,Swords
+Broadsword,0.0,0.0,48.0,0.0,0.0,0.0,0.0,11.0,0.0,0.0,0,7000,1400,0,Swords
+Iron Blade,0.0,0.0,30.0,0.0,0.0,0.0,-20.0,0.0,0.0,0.0,0,2600,520,0,Swords
+Nameless Sword,0.0,0.0,23.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0,2400,480,0,Swords
+Long Sword,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Swords
+Knight's Sword,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Swords
+Imitation Sword,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Swords
+Rotted Sword,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,100,20,0,Swords
+Sword of the Sands,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Swords
+Desert Blade,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Swords
+Thief's Sword,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Swords
+Makeshift Sword,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a sword, but it'll have to do.",0,0,0,Swords
+Warlord's Spear,0.0,0.0,310.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover BP when defeating an enemy.,150000,100000,0,Polearms
+Battle-Tested Spear,0.0,0.0,390.0,0.0,0.0,0.0,0.0,0.0,120.0,0.0,Attack effect: Slim chance to blind target.,100000,20000,0,Polearms
+Lost Tribe's Spear,0.0,0.0,386.0,0.0,0.0,0.0,0.0,-101.0,0.0,0.0,Attack effect: Slim chance to put target to sleep.,65000,13000,0,Polearms
+Gravity Lance,0.0,0.0,375.0,0.0,0.0,0.0,-75.0,0.0,0.0,-90.0,0,60000,12000,0,Polearms
+Spear of Strength,0.0,0.0,338.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Guaranteed critical hit.,55000,11000,Side Story: The Strongest,Polearms
+Tornado Glaive,0.0,0.0,337.0,0.0,0.0,0.0,0.0,0.0,0.0,105.0,Equip effect: Raises potency of wind-based attacks.,65000,13000,Final room in optional dungeon: Curious Nest,Polearms
+Forbidden Spear,0.0,0.0,320.0,0.0,0.0,0.0,0.0,-120.0,0.0,50.0,0,80000,16000,0,Polearms
+Fire Dragon's Glaive,0.0,0.0,318.0,0.0,0.0,0.0,0.0,0.0,0.0,95.0,Equip effect: Raises potency of fire-based attacks.,60000,12000,0,Polearms
+Monster Bone Spear,0.0,0.0,315.0,0.0,0.0,0.0,-65.0,0.0,0.0,0.0,0,55000,11000,0,Polearms
+Thunder's Roar,0.0,0.0,312.0,230.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Deal additional lightning damage to target.,80000,16000,0,Polearms
+Obsidian Lance,0.0,0.0,311.0,0.0,0.0,0.0,0.0,0.0,97.0,0.0,0,60000,12000,0,Polearms
+Seraphim Spear,0.0,0.0,296.0,0.0,0.0,0.0,0.0,96.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental attack.,57000,11400,0,Polearms
+Venom Lance,0.0,0.0,292.0,0.0,0.0,0.0,0.0,0.0,89.0,0.0,Attack effect: Slim chance to poison target.,57000,11400,0,Polearms
+Well-Worn Pole,0.0,0.0,289.0,330.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental defense.,60000,12000,Side Story: Lady Clarissa's Next Chapter,Polearms
+Crimson Spear,0.0,0.0,288.0,0.0,0.0,0.0,0.0,0.0,90.0,0.0,0,55000,11000,0,Polearms
+Hyperion Spear,0.0,0.0,286.0,0.0,0.0,0.0,0.0,88.0,0.0,0.0,0,55000,11000,0,Polearms
+Rare Metal Glaive,0.0,0.0,284.0,0.0,0.0,0.0,0.0,0.0,0.0,82.0,0,54000,10800,0,Polearms
+Sea God's Spear,0.0,0.0,224.0,0.0,0.0,0.0,91.0,0.0,0.0,0.0,Attack effect: Deal 1 additional attack.,58000,11600,0,Polearms
+Nightmare Glaive,0.0,0.0,210.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,Attack effect: Slim chance to put target to sleep.,36000,7200,0,Polearms
+Clan Mei Spear,0.0,0.0,187.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's speed.,35000,7000,0,Polearms
+Paladin's Lance,0.0,0.0,184.0,0.0,0.0,0.0,0.0,0.0,55.0,0.0,0,35000,7000,0,Polearms
+Lightning Glaive,0.0,0.0,182.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,0,35000,7000,0,Polearms
+Scorched Bone Spear,0.0,0.0,132.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,Equip effect: Raises potency of fire-based attacks.,23000,4600,0,Polearms
+Heavy Bone Spear,0.0,0.0,125.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,0,22000,4400,0,Polearms
+Matching Trident,0.0,0.0,114.0,0.0,0.0,0.0,0.0,0.0,35.0,0.0,Attack effect: Slim chance to reduce target's evasion.,22000,4400,0,Polearms
+Soldier's Spear,0.0,0.0,111.0,0.0,0.0,0.0,0.0,34.0,0.0,0.0,0,22000,4400,0,Polearms
+Fuscina,0.0,0.0,106.0,0.0,0.0,0.0,20.0,0.0,20.0,0.0,0,21000,4200,0,Polearms
+Master Harpoon,0.0,0.0,103.0,0.0,0.0,0.0,31.0,0.0,0.0,0.0,0,20000,4000,0,Polearms
+Vanguard's Javelin,0.0,0.0,71.0,0.0,0.0,0.0,0.0,41.0,0.0,0.0,0,12000,2400,0,Polearms
+Gluttonous Glaive,0.0,0.0,69.0,0.0,0.0,0.0,-40.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's evasion.,9000,1800,Side Story: Culinary Cunning,Polearms
+Slashing Glaive,0.0,0.0,68.0,0.0,0.0,0.0,0.0,0.0,0.0,18.0,0,11000,2200,0,Polearms
+Steel Lance,0.0,0.0,63.0,0.0,0.0,0.0,0.0,0.0,16.0,0.0,0,10000,2000,0,Polearms
+Sandstorm Spear,0.0,0.0,58.0,0.0,0.0,0.0,0.0,17.0,0.0,0.0,0,10000,2000,0,Polearms
+Spear of Sleep,0.0,0.0,57.0,57.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to put target to sleep.,10000,2000,0,Polearms
+War Glaive,0.0,0.0,49.0,0.0,0.0,0.0,0.0,0.0,0.0,11.0,0,7500,1500,0,Polearms
+Memorial Harpoon,0.0,0.0,38.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's speed.,2200,440,0,Polearms
+Bone Spear,0.0,0.0,28.0,0.0,0.0,0.0,-18.0,0.0,0.0,0.0,0,2300,460,0,Polearms
+Lance,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0,2600,520,0,Polearms
+Long Spear,0.0,0.0,22.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0,2200,440,0,Polearms
+Spear,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Polearms
+Imitation Spear,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Polearms
+Desert Spear,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Polearms
+Distinguished Lance,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Polearms
+Handmade Spear,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Polearms
+Makeshift Spear,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a spear, but it'll have to do.",0,0,0,Polearms
+Dancer's Blade,0.0,0.0,300.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"Attack effect: Slim chance to afflict target with poison, blindness, confusion, or sleep.",150000,100000,0,Daggers
+Battle-Tested Dagger,0.0,0.0,380.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Attack effect: Slim chance to reduce target's accuracy.,100000,20000,0,Daggers
+Lost Tribe's Dagger,0.0,0.0,362.0,0.0,0.0,0.0,0.0,-103.0,0.0,0.0,Attack effect: Slim chance to blind target.,65000,13000,0,Daggers
+Tonfa,0.0,0.0,329.0,0.0,0.0,0.0,102.0,0.0,0.0,0.0,Attack effect: Slim chance to counterattack.,65000,13000,0,Daggers
+Vengeful Knife,0.0,0.0,325.0,0.0,0.0,0.0,0.0,109.0,0.0,0.0,Attack effect: Slim chance to put target to sleep.,65000,13000,Side Story: Mira and the Elderly Guard's Next Chapter,Daggers
+Ruinous Dagger,0.0,0.0,317.0,0.0,0.0,0.0,-75.0,0.0,0.0,0.0,Attack effect: Slim chance to instantly kill target.,57000,11400,0,Daggers
+Diamond Dagger,0.0,0.0,315.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,70000,14000,0,Daggers
+Dagger in the Rough,0.0,0.0,305.0,0.0,0.0,0.0,-65.0,0.0,-30.0,0.0,0,55000,11000,0,Daggers
+Mooneater,0.0,0.0,285.0,349.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of fire- and wind-based attacks.,65000,13000,0,Daggers
+Forbidden Dagger,0.0,0.0,305.0,295.0,-120.0,0.0,0.0,0.0,0.0,0.0,0,80000,16000,0,Daggers
+Lockpick,0.0,0.0,304.0,0.0,0.0,0.0,0.0,0.0,0.0,94.0,Attack effect: Slim chance to reduce target's physical defense.,60000,12000,0,Daggers
+Bloodstained Knife,0.0,0.0,290.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover HP equivalent to 25% of the damage dealt.,57000,11400,0,Daggers
+Breaker's Blade,0.0,0.0,289.0,0.0,0.0,0.0,0.0,0.0,115.0,0.0,0,60000,12000,0,Daggers
+Ornate Dagger,0.0,0.0,281.0,0.0,0.0,0.0,91.0,0.0,0.0,0.0,0,55000,11000,0,Daggers
+Dagger of Seclusion,0.0,0.0,279.0,0.0,0.0,0.0,0.0,0.0,0.0,88.0,0,55000,11000,0,Daggers
+Assassin's Dagger,0.0,0.0,278.0,0.0,0.0,0.0,0.0,90.0,0.0,0.0,0,54000,10800,0,Daggers
+Mysterious Dagger,0.0,0.0,266.0,266.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental defense.,57000,11400,0,Daggers
+Champion Seeker,0.0,0.0,180.0,0.0,0.0,0.0,58.0,0.0,0.0,0.0,0,35000,7000,0,Daggers
+Marietta,0.0,0.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,Attack effect: Slim chance to instantly kill target.,35000,7000,0,Daggers
+Piercing Dagger,0.0,0.0,176.0,0.0,0.0,0.0,0.0,55.0,0.0,0.0,0,35000,7000,0,Daggers
+Doombreaker,0.0,0.0,174.0,0.0,0.0,0.0,0.0,0.0,56.0,0.0,0,34000,6800,0,Daggers
+Wind Whisperer,0.0,0.0,172.0,163.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of wind-based attacks.,36000,7200,0,Daggers
+Poison Dagger,0.0,0.0,162.0,0.0,0.0,0.0,0.0,0.0,58.0,0.0,Attack effect: Slim chance to poison target.,36000,7200,0,Daggers
+Moonfang,0.0,0.0,141.0,0.0,0.0,0.0,0.0,75.0,0.0,0.0,Equip effect: Raises potency of fire-based attacks.,35000,7000,0,Daggers
+Obsidian Dagger,0.0,0.0,122.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,0,22000,4400,0,Daggers
+Black Dagger,0.0,0.0,118.0,0.0,0.0,0.0,0.0,55.0,0.0,0.0,Attack effect: Slim chance to blind target.,35000,7000,0,Daggers
+Stealthy Knife,0.0,0.0,117.0,0.0,0.0,0.0,0.0,0.0,0.0,37.0,0,23000,4600,0,Daggers
+Drifting Dagger,0.0,0.0,111.0,0.0,0.0,0.0,28.0,0.0,28.0,0.0,0,22000,4400,0,Daggers
+Stinging Dagger,0.0,0.0,107.0,0.0,0.0,0.0,0.0,34.0,0.0,0.0,0,20000,4000,0,Daggers
+Jade Dagger,0.0,0.0,101.0,0.0,0.0,0.0,0.0,0.0,0.0,31.0,Attack effect: Slim chance to reduce target's physical attack.,20000,4000,Side Story: The Washed-Up Letter,Daggers
+Magus Knife,0.0,0.0,97.0,93.0,0.0,0.0,0.0,0.0,0.0,0.0,0,20000,4000,0,Daggers
+Crystal Dagger,0.0,0.0,72.0,0.0,0.0,0.0,-50.0,0.0,0.0,0.0,0,10000,2000,0,Daggers
+Swordbreaker,0.0,0.0,62.0,0.0,0.0,0.0,0.0,0.0,16.0,0.0,0,10000,2000,0,Daggers
+Quartz Dagger,0.0,0.0,60.0,58.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental defense.,18000,3600,0,Daggers
+Falcon Knife,0.0,0.0,57.0,0.0,0.0,0.0,0.0,0.0,0.0,14.0,0,9000,1800,0,Daggers
+Handbreaker,0.0,0.0,52.0,0.0,0.0,0.0,0.0,0.0,13.0,0.0,0,9000,1800,0,Daggers
+Kukri,0.0,0.0,46.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,0,7000,1400,0,Daggers
+Needle Dagger,0.0,0.0,25.0,0.0,0.0,0.0,0.0,6.0,0.0,0.0,0,2800,560,0,Daggers
+Bronze Knife,0.0,0.0,22.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,0,2400,480,0,Daggers
+Dagger,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Daggers
+Silver-Plated Knife,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,3500,500,0,Daggers
+Thief's Dagger,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Daggers
+Snakebite,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Daggers
+Fruit Knife,0.0,0.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Daggers
+Sharp Stone,0.0,0.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Daggers
+Makeshift Knife,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a dagger, but it'll have to do.",0,0,0,Daggers
+Lionheart's Axe,0.0,0.0,320.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Raises max HP during battle.,150000,100000,0,Axes
+Battle-Tested Axe,0.0,0.0,400.0,250.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of lightning- and ice-based attacks.,100000,20000,0,Axes
+Lost Tribe's Axe,0.0,0.0,381.0,0.0,0.0,0.0,0.0,0.0,-102.0,0.0,Attack effect: Slim chance to confuse target.,65000,13000,0,Axes
+Reaper's Sickle,0.0,0.0,366.0,0.0,0.0,0.0,-66.0,0.0,0.0,0.0,Attack effect: Slim chance to instantly kill target.,60000,12000,Side Story: A Mysterious Box,Axes
+Hero's Axe,0.0,0.0,340.0,0.0,0.0,0.0,0.0,0.0,102.0,0.0,Equip effect: Raises potency of lightning-based attacks.,65000,13000,0,Axes
+Forbidden Axe,0.0,0.0,324.0,0.0,0.0,0.0,80.0,0.0,-120.0,0.0,0,80000,16000,0,Axes
+Flayer's Admonishment,0.0,0.0,323.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover HP equivalent to 25% of the damage dealt.,60000,12000,0,Axes
+Royal Guard's Hatchet,0.0,0.0,319.0,0.0,0.0,0.0,0.0,97.0,0.0,0.0,0,60000,12000,0,Axes
+Axe of the Conqueror,0.0,0.0,306.0,0.0,0.0,0.0,0.0,0.0,90.0,0.0,Attack effect: Slim chance to blind target.,57000,11400,0,Axes
+Cleaver of Destruction,0.0,0.0,304.0,0.0,0.0,0.0,91.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's physical defense.,57000,11400,0,Axes
+Stupefying Stone Axe,0.0,0.0,297.0,0.0,0.0,0.0,0.0,91.0,0.0,0.0,Attack effect: Slim chance to confuse target.,55000,11000,Side Story: Ghormf!,Axes
+Icy Axe,0.0,0.0,295.0,198.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of ice-based attacks.,55000,11000,0,Axes
+Imperial Axe,0.0,0.0,293.0,0.0,0.0,0.0,89.0,0.0,0.0,0.0,0,55000,11000,0,Axes
+Frontier Axe,0.0,0.0,290.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's physical attack.,55000,11000,0,Axes
+Contaminated Iron Ingot,0.0,0.0,289.0,0.0,-60.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to poison target.,65000,13000,0,Axes
+Double Tomahawk,0.0,0.0,230.0,264.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Deal 1 additional attack.,60000,12000,0,Axes
+Guardian's Great Axe,0.0,0.0,204.0,0.0,0.0,0.0,-60.0,0.0,55.0,0.0,0,35000,7000,0,Axes
+Dark Slasher,0.0,0.0,197.0,0.0,0.0,0.0,0.0,0.0,58.0,0.0,Equip effect: Raises potency of dark-based attacks.,37000,7400,0,Axes
+Pirate's Axe,0.0,0.0,195.0,0.0,0.0,0.0,0.0,0.0,57.0,0.0,0,37000,7400,0,Axes
+Platinum Hatchet,0.0,0.0,194.0,0.0,0.0,0.0,0.0,58.0,0.0,0.0,0,37000,7400,0,Axes
+Quartz Axe,0.0,0.0,187.0,154.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental attack.,35000,7000,0,Axes
+Grand Cleaver,0.0,0.0,186.0,0.0,0.0,0.0,0.0,0.0,55.0,0.0,0,35000,7000,0,Axes
+Bone Cleaver,0.0,0.0,128.0,0.0,0.0,0.0,-60.0,0.0,0.0,0.0,0,25000,5000,0,Axes
+Guardian's Axe,0.0,0.0,123.0,0.0,0.0,0.0,36.0,0.0,0.0,0.0,0,23000,4600,0,Axes
+Guillotine's Blade,0.0,0.0,119.0,0.0,0.0,0.0,20.0,0.0,20.0,0.0,0,24000,4800,0,Axes
+Silver Hatchet,0.0,0.0,112.0,0.0,0.0,0.0,0.0,32.0,0.0,0.0,0,22000,4400,0,Axes
+Frost Axe,0.0,0.0,110.0,0.0,0.0,0.0,0.0,30.0,0.0,0.0,Equip effect: Raises potency of ice-based attacks.,20000,4000,0,Axes
+Rock Cleaver,0.0,0.0,108.0,0.0,0.0,0.0,0.0,0.0,31.0,0.0,0,20000,4000,0,Axes
+Axe of Avarice,0.0,0.0,107.0,0.0,20.0,20.0,0.0,0.0,0.0,0.0,0,20000,4000,0,Axes
+Helmcleaver,0.0,0.0,71.0,0.0,0.0,0.0,-45.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's physical defense.,9000,1800,0,Axes
+Strong Axe,0.0,0.0,70.0,0.0,0.0,0.0,18.0,0.0,0.0,0.0,0,11000,2200,0,Axes
+Poisoned Hatchet,0.0,0.0,61.0,55.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to poison target.,10000,2000,0,Axes
+Battle Hatchet,0.0,0.0,59.0,0.0,0.0,0.0,0.0,14.0,0.0,0.0,0,8000,1600,0,Axes
+Guard's Great Axe,0.0,0.0,54.0,0.0,0.0,0.0,0.0,0.0,13.0,0.0,0,7000,1400,0,Axes
+Iron Axe,0.0,0.0,48.0,0.0,0.0,0.0,11.0,0.0,0.0,0.0,0,7000,1400,0,Axes
+War Axe,0.0,0.0,26.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0,0,2600,520,0,Axes
+Woodcutter's Great Axe,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0,2100,420,0,Axes
+Beastling's Hatchet,0.0,0.0,23.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0,2000,400,0,Axes
+Handaxe,0.0,0.0,12.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Axes
+Woodcutter's Axe,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Axes
+Rotted Axe,0.0,0.0,7.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,100,20,0,Axes
+Demolition Axe,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Axes
+Small Axe,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Axes
+Snake Fang,0.0,0.0,6.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Axes
+Makeshift Axe,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of an axe, but it'll have to do.",0,0,0,Axes
+Hunter's Bow,0.0,0.0,312.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Slim chance to trigger a skill twice.,150000,100000,0,Bows
+Battle-Tested Bow,0.0,0.0,390.0,0.0,0.0,0.0,0.0,0.0,120.0,0.0,Attack effect: Slim chance to reduce target's physical defense.,100000,20000,0,Bows
+Lost Tribe's Bow,0.0,0.0,371.0,0.0,0.0,0.0,-103.0,0.0,0.0,0.0,Attack effect: Slim chance to poison target.,65000,13000,0,Bows
+Exorcising Bow,0.0,0.0,339.0,0.0,0.0,0.0,0.0,110.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental attack.,65000,13000,0,Bows
+Floyd's Neo Bow,0.0,0.0,338.0,0.0,0.0,0.0,120.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's evasion.,65000,13000,Side Story: Floyd and Thurston's Next Chapter,Bows
+Befuddling Greatbow,0.0,0.0,337.0,0.0,0.0,0.0,0.0,0.0,0.0,105.0,Attack effect: Slim chance to confuse target.,65000,13000,Side Story: Shirlutto's Next Chapter,Bows
+Forbidden Bow,0.0,0.0,315.0,0.0,0.0,0.0,0.0,0.0,70.0,-120.0,0,80000,16000,0,Bows
+Bow of Carnage,0.0,0.0,313.0,0.0,0.0,0.0,0.0,70.0,70.0,0.0,0,80000,16000,0,Bows
+Protector's Bow,0.0,0.0,310.0,0.0,0.0,0.0,0.0,0.0,0.0,96.0,0,60000,12000,0,Bows
+Art of Archery,0.0,0.0,297.0,0.0,0.0,0.0,115.0,0.0,0.0,0.0,0,60000,12000,0,Bows
+Leviathan Greatbow,0.0,0.0,296.0,0.0,0.0,0.0,0.0,0.0,89.0,0.0,Attack effect: Slim chance to reduce target's physical attack.,60000,12000,0,Bows
+Tornado Bow,0.0,0.0,295.0,0.0,0.0,0.0,0.0,90.0,0.0,0.0,Equip effect: Raises potency of wind-based attacks.,57000,11400,0,Bows
+Mechanical Bow,0.0,0.0,294.0,0.0,0.0,0.0,93.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's accuracy.,57000,11400,0,Bows
+Evening Mist,0.0,0.0,293.0,325.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to blind target.,65000,13000,0,Bows
+Master's Greatbow,0.0,0.0,288.0,0.0,0.0,0.0,0.0,0.0,88.0,0.0,0,55000,11000,0,Bows
+Ancient Bow,0.0,0.0,286.0,0.0,0.0,0.0,0.0,87.0,0.0,0.0,0,55000,11000,0,Bows
+King of Beasts,0.0,0.0,282.0,0.0,0.0,0.0,0.0,0.0,0.0,90.0,0,53000,10600,0,Bows
+Black Bow,0.0,0.0,281.0,0.0,0.0,0.0,0.0,0.0,145.0,0.0,Attack effect: Slim chance to instantly kill target.,60000,12000,0,Bows
+Engagement Bow,0.0,0.0,197.0,0.0,0.0,0.0,0.0,64.0,0.0,0.0,Attack effect: Slim chance to reduce target's evasion.,36000,7200,0,Bows
+Absolute Zero Bow,0.0,0.0,187.0,158.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of ice-based attacks.,36000,7200,0,Bows
+Sniper's Bow,0.0,0.0,186.0,0.0,0.0,0.0,56.0,0.0,0.0,0.0,0,36000,7200,0,Bows
+Expert's Bow,0.0,0.0,183.0,0.0,0.0,0.0,0.0,57.0,0.0,0.0,0,35000,7000,0,Bows
+Raging Beast,0.0,0.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0,56.0,Attack effect: Slim chance to reduce target's evasion.,35000,7000,0,Bows
+Marksman's Bow,0.0,0.0,118.0,0.0,0.0,0.0,0.0,35.0,0.0,0.0,0,24000,4800,0,Bows
+Battle Bow,0.0,0.0,114.0,0.0,0.0,0.0,34.0,0.0,0.0,0.0,0,21000,4200,0,Bows
+Knight's Greatbow,0.0,0.0,109.0,0.0,0.0,0.0,0.0,0.0,34.0,0.0,0,21000,4200,0,Bows
+Cupid's Bow,0.0,0.0,104.0,0.0,0.0,0.0,32.0,0.0,0.0,0.0,Attack effect: Slim chance to confuse target.,20000,4000,Side Story: Pearl Hunt,Bows
+Steel Bow,0.0,0.0,80.0,0.0,0.0,0.0,22.0,0.0,0.0,0.0,0,15000,3000,0,Bows
+Soldier's Bow,0.0,0.0,67.0,0.0,0.0,0.0,0.0,0.0,18.0,0.0,0,11000,2200,0,Bows
+Mirage Bow,0.0,0.0,63.0,45.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's accuracy.,10000,2000,Chest in Southern Clockbank Highroad,Bows
+Sailor's Bow,0.0,0.0,60.0,0.0,0.0,0.0,0.0,15.0,0.0,0.0,0,9000,1800,0,Bows
+Assault Bow,0.0,0.0,58.0,0.0,0.0,0.0,14.0,0.0,0.0,0.0,0,8500,1700,0,Bows
+Tenacious Bow,0.0,0.0,57.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0,9000,1800,0,Bows
+Shadow Bow,0.0,0.0,55.0,55.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to blind target.,9000,1800,0,Bows
+Guard's Greatbow,0.0,0.0,53.0,0.0,0.0,0.0,0.0,0.0,11.0,0.0,0,6000,1200,0,Bows
+Traveler's Bow,0.0,0.0,47.0,0.0,0.0,0.0,0.0,13.0,0.0,0.0,0,7000,1400,0,Bows
+Giant Bow,0.0,0.0,24.0,0.0,0.0,0.0,0.0,0.0,6.0,0.0,0,2500,500,0,Bows
+Composite Bow,0.0,0.0,22.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0,2200,440,0,Bows
+Beastling's Bow,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,0,2200,440,0,Bows
+Shortbow,0.0,0.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Bows
+Bow,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Bows
+Handmade Bow,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Bows
+Makeshift Bow,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a bow, but it'll have to do.",0,0,0,Bows
+Spiritlord's Staff,0.0,0.0,160.0,320.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Recover SP equivalent to 1% of the damage dealt.,150000,100000,0,Staves
+Battle-Tested Staff,0.0,0.0,200.0,400.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's speed.,100000,20000,0,Staves
+Lost Tribe's Staff,0.0,0.0,190.0,381.0,-102.0,0.0,0.0,0.0,0.0,0.0,0,65000,13000,0,Staves
+Forbidden Staff,0.0,0.0,-210.0,342.0,0.0,-120.0,0.0,0.0,0.0,0.0,0,80000,16000,0,Staves
+Sunshadow Staff,0.0,0.0,171.0,335.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of light- and dark-based attacks.,60000,12000,0,Staves
+Staff of Carnage,0.0,0.0,174.0,330.0,0.0,0.0,0.0,0.0,0.0,102.0,0,60000,12000,Side Story: The Treasures of Ku,Staves
+Diamond Rod,0.0,0.0,179.0,325.0,0.0,0.0,0.0,0.0,0.0,0.0,0,70000,14000,Gravell (A),Staves
+Great Sage's Staff,0.0,0.0,162.0,324.0,0.0,0.0,0.0,108.0,0.0,0.0,0,60000,12000,0,Staves
+Bellowing Baton,0.0,0.0,160.0,322.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of lightning-based attacks.,60000,12000,0,Staves
+Sacred Flame Staff,0.0,0.0,160.0,319.0,0.0,94.0,0.0,0.0,0.0,0.0,0,60000,12000,Stormhail (A),Staves
+Rough-Hewn Rod,0.0,0.0,177.0,315.0,0.0,0.0,0.0,-60.0,0.0,-60.0,0,55000,11000,Gravell (A),Staves
+Abyssal Rod,0.0,0.0,152.0,304.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of dark-based attacks.,57000,11400,0,Staves
+Hallowed Rod,0.0,0.0,152.0,304.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of light-based attacks.,57000,11400,0,Staves
+Ancient Staff,0.0,0.0,154.0,294.0,0.0,0.0,0.0,0.0,0.0,0.0,0,54000,10800,Nameless Village (A),Staves
+Yggdrasil Staff,0.0,0.0,146.0,293.0,0.0,0.0,0.0,0.0,0.0,86.0,0,55000,11000,Wellgrove Dept. Store,Staves
+Psychic Staff,0.0,0.0,152.0,214.0,0.0,88.0,0.0,0.0,0.0,0.0,0,36000,7200,Side Story: Cathedral Window Repair,Staves
+Wisdom Wand,0.0,0.0,97.0,195.0,0.0,0.0,0.0,59.0,0.0,0.0,0,36000,7200,Montwise (GS),Staves
+Chef's Ladle,0.0,0.0,146.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to confuse target.,36000,7200,Side Story: A Devilishly Delicious Dish,Staves
+Quartz Rod,0.0,0.0,96.0,192.0,0.0,57.0,0.0,0.0,0.0,0.0,0,36000,7200,Stormhail (A),Staves
+Fortune Wand,0.0,0.0,92.0,185.0,0.0,0.0,0.0,55.0,0.0,0.0,0,33000,6600,Tropu'hopu (A) Wellgrove Dept. Store,Staves
+Sapphire Rod,0.0,0.0,61.0,123.0,0.0,36.0,0.0,0.0,0.0,0.0,0,23000,4600,Montwise (GS),Staves
+Jade Staff,0.0,0.0,58.0,116.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of light-based attacks.,21000,4200,0,Staves
+Magus Wand,0.0,0.0,56.0,112.0,0.0,0.0,0.0,33.0,0.0,0.0,0,21000,4200,Crack Ridge (A),Staves
+Oak Staff,0.0,0.0,53.0,105.0,0.0,0.0,0.0,0.0,0.0,31.0,0,19000,3800,Winter Bloom Thieves Quarter (GS),Staves
+Magic Breaker,0.0,0.0,198.0,102.0,0.0,0.0,0.0,0.0,0.0,0.0,Attack effect: Slim chance to reduce target's elemental defense.,38000,7600,0,Staves
+Aegis Mace,0.0,0.0,143.0,85.0,0.0,0.0,0.0,0.0,60.0,0.0,0,36000,7200,Storm Hail (A),Staves
+Conjurer's Staff,0.0,0.0,36.0,77.0,0.0,0.0,0.0,0.0,0.0,0.0,0,13000,2600,Trophu'hopu (A),Staves
+Mage Wand,0.0,0.0,32.0,64.0,0.0,0.0,0.0,16.0,0.0,0.0,0,10000,2000,Conning Creek (GS) Flame Church (GS) Flame Church Cathedral (GS),Staves
+Rod of Wisdom,0.0,0.0,31.0,62.0,0.0,0.0,0.0,0.0,0.0,0.0,0,9000,1800,Montwise (GS),Staves
+Lapis Rod,0.0,0.0,29.0,59.0,0.0,14.0,0.0,0.0,0.0,0.0,0,9000,1800,Crop Dale (GS),Staves
+Light Wand,0.0,0.0,27.0,54.0,0.0,0.0,0.0,13.0,0.0,0.0,0,8000,1600,Beastling Village (A) Canal Brine (A) New Delsta (A),Staves
+Thunder Mace,0.0,0.0,60.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of lightning-based attacks.,10000,2000,0,Staves
+Stone Rod,0.0,0.0,11.0,24.0,0.0,6.0,0.0,0.0,0.0,0.0,0,2600,520,Flame Church (GS) Flame Church Cathedral (GS),Staves
+Wooden Staff,0.0,0.0,11.0,23.0,0.0,0.0,0.0,0.0,0.0,5.0,0,2400,480,Cape Cold (GS) Canal Brine (GS) Flame Church (GS) Flame Church Cathedral (GS),Staves
+Mace,0.0,0.0,43.0,21.0,0.0,0.0,0.0,0.0,13.0,0.0,0,8000,1600,Canal Brine (A),Staves
+Sinner's Staff,0.0,0.0,5.0,14.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,0,Staves
+Pilgrim Rod,0.0,0.0,9.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,Flame Church (GS),Staves
+Charm Rod,0.0,0.0,6.0,11.0,0.0,0.0,0.0,0.0,0.0,0.0,0,800,160,Flame Church (GS),Staves
+Flamebringer's Staff,0.0,0.0,3.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Staves
+Staff of Judgment,0.0,0.0,3.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,Temenos (Story),Staves
+Stick,0.0,0.0,3.0,4.0,0.0,0.0,0.0,0.0,0.0,0.0,0,200,40,0,Staves
+Giant's Club,0.0,0.0,328.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises potency of physical skills.,62000,12400,0,Staves
+Morning Star,0.0,0.0,190.0,0.0,0.0,0.0,0.0,0.0,55.0,0.0,Attack effect: Slim chance to reduce target's speed.,35000,7000,Conning Creak (PA),Staves
+Flail,0.0,0.0,124.0,0.0,0.0,0.0,-50.0,0.0,0.0,0.0,0,22000,4400,Crackridge (A),Staves
+Makeshift Staff,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a staff, but it'll have to do.",0,0,Default,Staves
+Cursed Shield,0.0,0.0,0.0,0.0,133.0,133.0,0.0,0.0,0.0,-66.0,0,33330,6666,0,Shields
+Battle-Tested Shield,0.0,0.0,0.0,0.0,120.0,120.0,0.0,0.0,0.0,0.0,Equip effect: Recover HP and SP after performing an action.,50000,10000,0,Shields
+Forbidden Shield,0.0,0.0,0.0,0.0,118.0,103.0,0.0,0.0,0.0,0.0,Equip effect: Raises the chances of encountering enemies.,20000,4000,0,Shields
+Wise King's Shield,0.0,0.0,0.0,0.0,110.0,110.0,0.0,0.0,0.0,0.0,Equip effect: Raises physical defense at start of battle.,23000,4600,Side Story: In Search of the Divine Weapons,Shields
+Shield of Strength,0.0,0.0,0.0,0.0,108.0,108.0,0.0,0.0,0.0,0.0,Equip effect: Guaranteed critical hit when taking damage.,18000,3600,Side Story: The Strongest,Shields
+Giant Shield,0.0,0.0,0.0,0.0,105.0,103.0,0.0,-60.0,0.0,0.0,0,20500,4100,0,Shields
+Aegis Shield,0.0,0.0,0.0,0.0,104.0,61.0,0.0,0.0,0.0,0.0,0,18000,3600,0,Shields
+Protector's Shield,0.0,0.0,0.0,0.0,96.0,98.0,0.0,0.0,49.0,0.0,0,20500,4100,0,Shields
+Adamantine Buckler,0.0,0.0,0.0,0.0,95.0,81.0,0.0,0.0,0.0,48.0,0,18000,3600,0,Shields
+Sun Shield,0.0,0.0,0.0,0.0,91.0,91.0,0.0,0.0,0.0,0.0,Equip effect: Recover HP after performing an action.,19000,3800,0,Shields
+Quartz Shield,0.0,0.0,0.0,0.0,87.0,105.0,0.0,0.0,0.0,0.0,Equip effect: Prevents blindness.,20000,4000,0,Shields
+Swift Shield,0.0,0.0,0.0,0.0,79.0,97.0,0.0,47.0,0.0,0.0,0,18000,3600,0,Shields
+Heavy Greatshield,0.0,0.0,0.0,0.0,76.0,76.0,0.0,0.0,0.0,-55.0,0,11500,2300,0,Shields
+Diamond Shield,0.0,0.0,0.0,0.0,72.0,69.0,0.0,0.0,0.0,0.0,Equip effect: Prevents instant death.,12000,2400,0,Shields
+Platinum Shield,400.0,0.0,0.0,0.0,65.0,53.0,0.0,0.0,0.0,0.0,0,16000,3200,0,Shields
+Master's Shield,0.0,0.0,0.0,0.0,58.0,58.0,0.0,31.0,0.0,0.0,0,11800,2360,0,Shields
+Shield of Serenity,0.0,0.0,0.0,0.0,52.0,64.0,0.0,0.0,0.0,0.0,Equip effect: Prevents confusion.,11500,2300,0,Shields
+Spiked Shield,0.0,0.0,0.0,0.0,44.0,32.0,0.0,0.0,17.0,0.0,0,6500,1300,0,Shields
+Plate Buckler,0.0,0.0,0.0,0.0,43.0,35.0,0.0,0.0,0.0,19.0,0,7200,1440,0,Shields
+Silver Shield,150.0,0.0,0.0,0.0,42.0,34.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Shields
+Tattered Sacred Shield,0.0,20.0,0.0,0.0,35.0,35.0,0.0,0.0,0.0,0.0,0,6900,1380,0,Shields
+Crested Greatshield,0.0,0.0,0.0,0.0,31.0,31.0,0.0,0.0,0.0,-30.0,0,3300,660,0,Shields
+Feather Shield,0.0,0.0,0.0,0.0,27.0,31.0,0.0,26.0,0.0,0.0,0,6900,1380,0,Shields
+Shell Buckler,0.0,0.0,0.0,0.0,26.0,22.0,0.0,0.0,0.0,9.0,0,3600,720,0,Shields
+Guard's Shield,0.0,0.0,0.0,0.0,25.0,21.0,0.0,0.0,0.0,0.0,0,2000,400,0,Shields
+Sturdy Shield,0.0,0.0,0.0,0.0,25.0,25.0,0.0,0.0,0.0,-20.0,0,2300,460,0,Shields
+Iron Shield,60.0,0.0,0.0,0.0,24.0,20.0,0.0,0.0,0.0,0.0,0,3000,600,0,Shields
+Rabbit Shield,0.0,0.0,0.0,0.0,23.0,22.0,0.0,15.0,0.0,0.0,0,3300,660,0,Shields
+Weathered Treasure Shield,0.0,0.0,0.0,0.0,20.0,24.0,0.0,0.0,0.0,0.0,Equip effect: Recover SP after performing an action.,3300,660,0,Shields
+Kite Shield,0.0,0.0,0.0,0.0,20.0,18.0,0.0,0.0,0.0,0.0,0,2300,460,0,Shields
+Bronze Shield,30.0,0.0,0.0,0.0,17.0,16.0,0.0,0.0,0.0,0.0,0,2300,460,0,Shields
+Leather Buckler,0.0,0.0,0.0,0.0,16.0,20.0,0.0,0.0,0.0,7.0,0,2300,460,0,Shields
+Round Shield,0.0,0.0,0.0,0.0,15.0,21.0,0.0,6.0,0.0,0.0,0,2300,460,0,Shields
+Buckler,0.0,0.0,0.0,0.0,11.0,9.0,0.0,0.0,0.0,0.0,0,600,120,0,Shields
+Resplendent Shield,0.0,0.0,0.0,0.0,10.0,10.0,0.0,0.0,0.0,0.0,0,200,40,0,Shields
+Gray Shield,0.0,0.0,0.0,0.0,6.0,3.0,0.0,0.0,0.0,0.0,0,200,40,0,Shields
+Small Shield,0.0,0.0,0.0,0.0,5.0,3.0,0.0,0.0,0.0,0.0,0,200,40,0,Shields
+Wooden Shield,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Shields
+Bodyguard's Vantage,0.0,0.0,60.0,0.0,0.0,0.0,80.0,0.0,60.0,0.0,0,23000,4600,Side Story: Veronica's Next Chapter,Shields
+Makeshift Shield,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,"It's not much of a shield, but it'll have to do.",0,0,0,Shields
+Cursed Armor,0.0,0.0,0.0,0.0,222.0,222.0,0.0,-66.0,0.0,0.0,0,33330,6666,0,Body_Armor
+Dragon Mail,0.0,0.0,0.0,0.0,195.0,105.0,0.0,0.0,0.0,0.0,Equip effect: Reduces fire damage.,25000,5000,0,Body_Armor
+Desert Plate,0.0,0.0,0.0,0.0,183.0,110.0,0.0,0.0,0.0,0.0,0,24000,4800,0,Body_Armor
+Sublime Ornamental Armor,0.0,0.0,0.0,0.0,180.0,180.0,0.0,0.0,0.0,0.0,"Equip effect: Reduces fire, ice, lightning, and wind damage.",26500,5300,0,Body_Armor
+Vest of Joy,0.0,0.0,0.0,0.0,170.0,170.0,0.0,0.0,0.0,0.0,"Equip effect: Raises resistance to poison, sleep, confusion, blindness, silence, terror, and unconsciousness.",26500,5300,Side Story: A Young Girl's Wish,Body_Armor
+Imperial Armor,600.0,0.0,0.0,0.0,162.0,132.0,0.0,0.0,0.0,0.0,0,24000,4800,0,Body_Armor
+Royal Guard's Mail,750.0,0.0,0.0,0.0,160.0,160.0,0.0,0.0,0.0,0.0,0,26500,5300,0,Body_Armor
+Star's Gown,0.0,0.0,0.0,0.0,155.0,180.0,0.0,0.0,0.0,80.0,0,29000,5800,0,Body_Armor
+Quartz Robe,0.0,60.0,0.0,0.0,146.0,149.0,0.0,0.0,0.0,0.0,0,24000,4800,0,Body_Armor
+Quick Cloak,0.0,0.0,0.0,0.0,132.0,162.0,0.0,65.0,0.0,0.0,0,24000,4800,0,Body_Armor
+Blessed Vestments,0.0,0.0,0.0,74.0,130.0,215.0,0.0,0.0,0.0,0.0,0,29000,5200,0,Body_Armor
+Resplendent Costume,0.0,0.0,0.0,0.0,130.0,169.0,0.0,0.0,0.0,78.0,0,25000,5000,0,Body_Armor
+Butler's Tailcoat,0.0,0.0,0.0,0.0,128.0,192.0,0.0,0.0,75.0,0.0,0,24000,4800,Side Story: Misha's Next Chapter,Body_Armor
+Lightning Armor,0.0,0.0,0.0,0.0,124.0,67.0,0.0,0.0,0.0,0.0,Equip effect: Reduces lightning damage.,15700,3140,0,Body_Armor
+Conjurer's Raiment,0.0,0.0,0.0,0.0,121.0,220.0,0.0,0.0,0.0,0.0,Equip effect: Recover HP after performing an action.,29000,5800,Side Story: A Tower of Trials,Body_Armor
+Ornate Costume,0.0,0.0,0.0,0.0,118.0,176.0,0.0,0.0,0.0,63.0,0,24000,4800,0,Body_Armor
+Antique Coat,0.0,0.0,0.0,0.0,115.0,184.0,0.0,0.0,0.0,0.0,Equip effect: Prevents poison.,24000,4800,0,Body_Armor
+Protector's Vestments,0.0,0.0,0.0,0.0,112.0,208.0,0.0,69.0,0.0,0.0,0,26500,5300,0,Body_Armor
+Platinum Mail,400.0,0.0,0.0,0.0,109.0,89.0,0.0,0.0,0.0,0.0,0,22000,4400,0,Body_Armor
+Knight's Armor,300.0,0.0,0.0,0.0,99.0,65.0,0.0,0.0,0.0,0.0,0,15200,3040,0,Body_Armor
+Desert Armor,0.0,0.0,0.0,0.0,96.0,96.0,0.0,41.0,0.0,0.0,0,15700,5200,0,Body_Armor
+Mage's Robe,0.0,0.0,0.0,41.0,74.0,112.0,0.0,0.0,0.0,0.0,0,15200,3040,0,Body_Armor
+White Wolf Scarf,0.0,0.0,0.0,0.0,73.0,89.0,0.0,0.0,0.0,56.0,0,15200,3040,0,Body_Armor
+Bone Mail,0.0,0.0,0.0,0.0,70.0,47.0,0.0,0.0,23.0,0.0,0,8700,1740,0,Body_Armor
+Acrobat's Mantle,0.0,0.0,0.0,0.0,65.0,120.0,0.0,40.0,0.0,0.0,0,15200,3040,0,Body_Armor
+Nimble Mantle,0.0,0.0,0.0,0.0,65.0,53.0,0.0,22.0,0.0,0.0,0,8700,1740,0,Body_Armor
+Denim Work Clothes,0.0,0.0,0.0,0.0,63.0,63.0,0.0,0.0,25.0,0.0,0,9600,1920,0,Body_Armor
+Dojo Hakama,0.0,0.0,0.0,0.0,59.0,59.0,0.0,0.0,0.0,23.0,0,8700,1740,0,Body_Armor
+Dyed Clothes,0.0,0.0,0.0,0.0,50.0,75.0,0.0,0.0,0.0,0.0,Equip effect: Reduces light and dark damage.,9600,1920,0,Body_Armor
+Elemental Robe,0.0,30.0,0.0,0.0,48.0,73.0,0.0,0.0,0.0,0.0,0,9100,1820,0,Body_Armor
+Falcon Coat,0.0,0.0,0.0,0.0,44.0,83.0,0.0,0.0,0.0,26.0,0,10100,2020,0,Body_Armor
+Gorgeous Sari,0.0,0.0,0.0,0.0,42.0,79.0,0.0,27.0,0.0,0.0,0,9100,1820,0,Body_Armor
+Iron Mail,100.0,0.0,0.0,0.0,42.0,28.0,0.0,0.0,0.0,0.0,0,4400,880,0,Body_Armor
+Guard's Armor,0.0,0.0,0.0,0.0,40.0,24.0,0.0,0.0,0.0,0.0,0,2900,580,0,Body_Armor
+Beastling Battle Armor,0.0,0.0,0.0,0.0,37.0,33.0,0.0,0.0,11.0,0.0,0,4400,880,0,Body_Armor
+Sailor's Vest,0.0,0.0,0.0,0.0,36.0,30.0,0.0,0.0,0.0,10.0,0,3900,780,0,Body_Armor
+Wind Robe,0.0,0.0,0.0,0.0,33.0,36.0,0.0,0.0,0.0,0.0,Equip effect: Reduces wind damage.,3900,780,0,Body_Armor
+Copper Breastplate,0.0,0.0,0.0,0.0,31.0,21.0,0.0,0.0,0.0,9.0,0,3100,620,0,Body_Armor
+Hunting Attire,0.0,0.0,0.0,0.0,29.0,32.0,0.0,0.0,8.0,0.0,0,3100,620,0,Body_Armor
+Quality Vest,0.0,0.0,0.0,0.0,28.0,36.0,0.0,15.0,0.0,0.0,0,3900,780,0,Body_Armor
+Fur Robe,0.0,0.0,0.0,9.0,28.0,34.0,0.0,0.0,0.0,0.0,0,3500,700,0,Body_Armor
+Pilgrim's Robe,0.0,15.0,0.0,0.0,27.0,33.0,0.0,0.0,0.0,0.0,0,3100,620,0,Body_Armor
+Simple Costume,0.0,0.0,0.0,0.0,26.0,39.0,0.0,0.0,0.0,16.0,0,3900,780,0,Body_Armor
+Feather Mantle,0.0,0.0,0.0,0.0,26.0,38.0,0.0,10.0,0.0,0.0,0,3900,780,0,Body_Armor
+Champion's Garb,0.0,0.0,0.0,0.0,26.0,27.0,0.0,0.0,30.0,0.0,0,3900,780,0,Body_Armor
+Charm Robe,0.0,0.0,0.0,15.0,25.0,46.0,0.0,0.0,0.0,0.0,0,4800,960,0,Body_Armor
+Traveler's Mantle,0.0,0.0,0.0,0.0,24.0,36.0,0.0,7.0,0.0,0.0,0,3100,620,0,Body_Armor
+Sanctum Knight's Armor,100.0,0.0,0.0,0.0,20.0,5.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Fur Armor,0.0,0.0,0.0,0.0,19.0,14.0,0.0,0.0,0.0,0.0,0,400,80,0,Body_Armor
+Old Armor,0.0,0.0,0.0,0.0,18.0,13.0,0.0,0.0,0.0,0.0,0,400,80,0,Body_Armor
+Worker's Jacket,0.0,0.0,0.0,0.0,8.0,8.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Desert Attire,0.0,0.0,0.0,0.0,8.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Frog Membrane,0.0,0.0,0.0,0.0,7.0,5.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Tough Waistcoat,0.0,0.0,0.0,0.0,7.0,5.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Prisoner's Clothes,0.0,0.0,0.0,0.0,6.0,3.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Black Attire,0.0,0.0,0.0,0.0,6.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Robe,0.0,0.0,0.0,0.0,5.0,10.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Tattered Dress,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Apothecary's Attire,0.0,0.0,0.0,0.0,4.0,6.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Villager's Clothes,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Body_Armor
+Cursed Helm,0.0,-66.0,0.0,0.0,88.0,88.0,0.0,0.0,0.0,0.0,0,33330,6666,0,Headgear
+Mechanical Top Hat,0.0,0.0,0.0,0.0,75.0,62.0,65.0,0.0,0.0,0.0,0,15500,3100,Side Story: A Genius Inventor,Headgear
+Imperial Helm,0.0,0.0,0.0,0.0,71.0,59.0,0.0,0.0,0.0,0.0,0,13000,2600,0,Headgear
+Dragon's Helm,0.0,0.0,0.0,0.0,69.0,53.0,0.0,0.0,0.0,0.0,Equip effect: Prevents unconsciousness.,14000,2800,0,Headgear
+Gimmick Goggles,0.0,0.0,0.0,0.0,65.0,43.0,0.0,0.0,0.0,59.0,0,13000,2600,0,Headgear
+Royal Guard's Helm,0.0,0.0,0.0,0.0,64.0,64.0,0.0,0.0,58.0,0.0,0,15500,3100,0,Headgear
+Great Helm,0.0,0.0,0.0,0.0,59.0,59.0,0.0,49.0,0.0,0.0,0,13000,2600,0,Headgear
+Art of Disguise,0.0,90.0,0.0,0.0,58.0,70.0,0.0,0.0,0.0,0.0,0,15500,3100,0,Headgear
+Mermaid Circlet,0.0,0.0,0.0,65.0,55.0,82.0,0.0,0.0,0.0,0.0,0,18000,3600,0,Headgear
+Dazzling Tiara,0.0,0.0,0.0,0.0,54.0,65.0,0.0,55.0,0.0,0.0,0,13000,2600,0,Headgear
+Gaudy Hat,0.0,0.0,0.0,0.0,53.0,53.0,0.0,0.0,0.0,0.0,Equip effect: Become more readily targeted by foes.,13000,2600,Side Story: Reaching for the Stars,Headgear
+Cloth Headband,0.0,0.0,0.0,0.0,52.0,54.0,0.0,60.0,0.0,0.0,0,13000,2600,0,Headgear
+Forgotten Hat,0.0,60.0,0.0,0.0,51.0,67.0,0.0,0.0,0.0,0.0,0,13000,2600,0,Headgear
+Antique Ceremonial Mask,0.0,0.0,0.0,0.0,49.0,73.0,0.0,0.0,0.0,0.0,Equip effect: Recover SP after performing an action.,14000,2800,0,Headgear
+Lighthouse Keeper's Bandana,0.0,0.0,0.0,0.0,46.0,58.0,0.0,0.0,54.0,0.0,0,13000,2600,Side Story: Lighthouse Restoration,Headgear
+Platinum Helm,300.0,0.0,0.0,0.0,43.0,35.0,0.0,0.0,0.0,0.0,0,12000,2400,0,Headgear
+Ancient Circlet,0.0,0.0,0.0,55.0,41.0,77.0,0.0,0.0,0.0,0.0,0,13000,2600,0,Headgear
+Soldier's Hat,0.0,0.0,0.0,0.0,38.0,38.0,0.0,36.0,0.0,0.0,0,8500,1700,0,Headgear
+Fighter's Headband,150.0,0.0,0.0,0.0,37.0,37.0,0.0,0.0,0.0,0.0,0,8300,1660,0,Headgear
+Knight's Helm,0.0,0.0,0.0,0.0,35.0,29.0,0.0,0.0,0.0,0.0,0,5400,1080,0,Headgear
+Starlight Hat,0.0,40.0,0.0,0.0,33.0,41.0,0.0,0.0,0.0,0.0,0,8300,1660,0,Headgear
+Horned Helm,100.0,0.0,0.0,0.0,31.0,25.0,0.0,0.0,0.0,0.0,0,5000,1000,0,Headgear
+Worker's Helmet,0.0,0.0,0.0,0.0,30.0,26.0,0.0,0.0,20.0,0.0,0,5200,1040,0,Headgear
+Hasty Helm,0.0,0.0,0.0,0.0,30.0,24.0,0.0,20.0,0.0,0.0,0,4800,960,0,Headgear
+Silent Bandana,0.0,0.0,0.0,0.0,26.0,33.0,0.0,0.0,0.0,0.0,Equip effect: Prevents terror.,5400,1080,0,Headgear
+Black Cap,0.0,0.0,0.0,0.0,25.0,31.0,0.0,0.0,0.0,22.0,0,5200,1040,0,Headgear
+Gelid Helm,0.0,0.0,0.0,0.0,21.0,18.0,0.0,0.0,0.0,0.0,Equip effect: Reduces ice damage.,4200,840,0,Headgear
+Skull Helm,0.0,0.0,0.0,22.0,20.0,36.0,0.0,0.0,0.0,0.0,0,5200,1040,0,Headgear
+Cassius,0.0,0.0,0.0,0.0,20.0,14.0,0.0,0.0,9.0,0.0,0,2100,420,0,Headgear
+Battle Bandana,0.0,0.0,0.0,0.0,19.0,19.0,0.0,0.0,0.0,11.0,0,2600,520,0,Headgear
+Guard's Helm,0.0,0.0,0.0,0.0,19.0,16.0,0.0,0.0,0.0,0.0,0,1500,300,0,Headgear
+Bronze Helm,0.0,0.0,0.0,0.0,18.0,15.0,0.0,0.0,0.0,0.0,0,1600,320,0,Headgear
+Guard's Hat,0.0,0.0,0.0,0.0,17.0,21.0,0.0,0.0,0.0,0.0,Equip effect: Prevents silence.,2600,520,0,Headgear
+Headgear,0.0,0.0,0.0,0.0,15.0,19.0,0.0,0.0,0.0,9.0,0,2100,420,0,Headgear
+Fur Cap,40.0,0.0,0.0,0.0,15.0,17.0,0.0,0.0,0.0,0.0,0,1900,380,0,Headgear
+Hide Hood,0.0,0.0,0.0,0.0,15.0,15.0,0.0,0.0,0.0,8.0,0,1600,320,0,Headgear
+Silver Hairpiece,0.0,30.0,0.0,0.0,14.0,22.0,0.0,0.0,0.0,0.0,0,2300,460,0,Headgear
+Peddler's Feathered Cap,0.0,0.0,0.0,0.0,14.0,20.0,0.0,0.0,0.0,0.0,Equip effect: Prevents sleep.,2100,420,Side Story: Ruffians' Redoubt,Headgear
+Feathered Hat,0.0,0.0,0.0,0.0,14.0,17.0,0.0,7.0,0.0,0.0,0,1600,320,chest in Western Clockbank Highroad,Headgear
+Pointed Hat,0.0,0.0,0.0,9.0,12.0,22.0,0.0,0.0,0.0,0.0,0,2100,420,0,Headgear
+Festival Garland,0.0,15.0,0.0,0.0,12.0,18.0,0.0,0.0,0.0,0.0,0,1600,320,0,Headgear
+Sanctum Knight's Helm,0.0,0.0,0.0,0.0,10.0,5.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Leather Helm,0.0,0.0,0.0,0.0,8.0,8.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Pathfinder's Hat,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Cloth Hood,0.0,0.0,0.0,0.0,4.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Gray Helm,0.0,0.0,0.0,0.0,4.0,2.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Black Hood,0.0,0.0,0.0,0.0,4.0,2.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Leather Hat,0.0,0.0,0.0,0.0,2.0,4.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Ordinary Hat,0.0,0.0,0.0,0.0,2.0,3.0,0.0,0.0,0.0,0.0,0,200,40,0,Headgear
+Spurning Ribbon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Wards off all enemy encounters.,20000,4000,Side Story: A Gate Between Worlds,Accessories
+Alluring Ribbon,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises the chances of encountering enemies.,20000,4000,Side Story: Lingering Love,Accessories
+EXP Augmentor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Receive additional EXP.,20000,4000,Chest: On the Water,Accessories
+JP Augmentor,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Receive additional JP.,20000,4000,Chest: Cavern of Waves,Accessories
+Brooch of Joy,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Receive additional EXP and JP.,20000,4000,"Steal/Mug: Melia (Winterbloom) (post-Castti Ch.4, Melia's Next Chapter completed)",Accessories
+Cait Powder,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises the chances of encountering caits.,20000,4000,Side Story: My Beloved Catharine,Accessories
+Octopuff Pot,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises the chances of encountering octopuffs.,20000,4000,Chest: Lighthouse Island Side Story: Will Research for Money,Accessories
+Dragon's Scarf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Recover SP after performing an action.,20000,4000,Side Story: Utterly Exhausted!,Accessories
+Beastly Scarf,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Recover HP after performing an action.,20000,4000,Side Story: Useless Fruit,Accessories
+Warding Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Become less readily targeted by foes.,6500,1300,0,Accessories
+Divine Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents petrification.,8000,1600,0,Accessories
+Melia's Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Recover HP and SP after performing an action.,20000,4000,Side Story: Melia's Next Chapter,Accessories
+Enfeebling Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Extends duration of inflicted enfeebling effects by 1 turn.,20000,4000,0,Accessories
+Prosperity Charm,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Receive additional leaves ({{Leaf}}) at the end of battle.,20000,4000,Side Story: The Soused Nobleman,Accessories
+Charm of Compassion,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Recover more HP and SP when healed.,20000,4000,Side Story: Through a Child's Eyes,Accessories
+Blessing in Disguise,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Turns negative values on other equipment into positive values.,30000,6000,0,Accessories
+Finisher's Claws,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises damage dealt by critical hits.,8000,1600,0,Accessories
+Stone of Truth,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Grants permanent spell intensity boost at start of battle.,8000,1600,0,Accessories
+Fang of Ferocity,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises damage dealt by boosted attacks.,8000,1600,0,Accessories
+Gale Feather,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Equip effect: Raises speed and evasion at start of battle.,15000,3000,0,Accessories
+Eye of Calamity,0.0,0.0,120.0,120.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces physical attack and elemental attack at start of battle.,15000,3000,0,Accessories
+Victory Ring,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Raises physical attack at start of battle.,20000,4000,Side Story: A Gambling Man,Accessories
+Hand-Sewn Gloves,0.0,0.0,0.0,0.0,0.0,60.0,0.0,0.0,0.0,0.0,Equip effect: Raises elemental defense at start of battle.,2000,400,0,Accessories
+Foreign Ring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,0.0,Equip effect: Raises critical rate at start of battle.,6500,1300,0,Accessories
+Alpione's Amulet,1200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Deal more damage when your HP is low.,20000,4000,Side Story: Alpione's Next Chapter,Accessories
+Librarian's Amulet,0.0,120.0,0.0,0.0,0.0,120.0,0.0,0.0,0.0,0.0,0,20000,4000,Side Story: Procuring Peculiar Tomes,Accessories
+Champion's Belt,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0.0,Equip effect: Prevents surprise attacks from enemies.,20000,4000,0,Accessories
+Mikka's Amulet,0.0,0.0,0.0,0.0,100.0,0.0,100.0,100.0,0.0,0.0,0,20000,4000,Side Story: Mikka's Next Chapter,Accessories
+Laila's Amulet,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,100.0,0,20000,4000,Side Story: Laila's Next Chapter,Accessories
+Sisters' Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,100.0,100.0,0.0,0,20000,4000,Side Story: The Missing Girl,Accessories
+Jade Ring,100.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Shadowsage Necklace,0.0,40.0,0.0,40.0,0.0,0.0,0.0,0.0,0.0,0.0,0,4700,940,0,Accessories
+Rosary of Redemption,0.0,0.0,-60.0,0.0,0.0,0.0,0.0,0.0,-60.0,0.0,0,3000,600,0,Accessories
+Coat of Arms,0.0,0.0,0.0,0.0,100.0,100.0,0.0,0.0,0.0,0.0,0,20000,4000,Side Story: From the Far Reaches of Hell,Accessories
+Blazon of Protection,0.0,0.0,0.0,0.0,30.0,30.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Scarlet Stone of Protection,0.0,0.0,0.0,0.0,0.0,30.0,0.0,0.0,0.0,0.0,Equip effect: Recover SP after performing an action.,25000,5000,0,Accessories
+Crescent Moon Necklace,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0.0,0.0,15.0,0,7200,1440,0,Accessories
+Moonshell Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,0.0,0.0,0,7200,1440,0,Accessories
+Moonshell Bracelet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.0,0.0,0,7200,1440,0,Accessories
+Physical Belt,0.0,0.0,65.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0,0,6500,1300,Side Story: Stage Actors,Accessories
+Mental Belt,0.0,0.0,0.0,65.0,0.0,50.0,0.0,0.0,0.0,0.0,0,6500,1300,Side Story: A Forced Hand,Accessories
+Mighty Belt,0.0,0.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Elemental Augmentor,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Guardian Amulet,0.0,0.0,0.0,0.0,65.0,0.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Elemental Ward,0.0,0.0,0.0,0.0,0.0,65.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Empowering Necklace,1000.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,20000,4000,0,Accessories
+Stimulating Necklace,0.0,80.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,20000,4000,0,Accessories
+Protective Necklace,0.0,0.0,0.0,0.0,80.0,80.0,0.0,0.0,0.0,0.0,0,20000,4000,0,Accessories
+Unerring Necklace,0.0,0.0,0.0,0.0,0.0,0.0,80.0,0.0,0.0,0.0,0,20000,4000,0,Accessories
+Enlightening Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80.0,0,20000,4000,0,Accessories
+Sprightly Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80.0,0.0,0.0,0,20000,4000,0,Accessories
+Critical Necklace,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,80.0,0.0,0,20000,4000,0,Accessories
+Empowering Bracelet,500.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Stimulating Bracelet,0.0,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Protective Bracelet,0.0,0.0,0.0,0.0,50.0,50.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Unerring Bracelet,0.0,0.0,0.0,0.0,0.0,0.0,50.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Enlightening Bracelet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,0,6500,1300,0,Accessories
+Sprightly Bracelet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,0.0,0.0,0,6500,1300,0,Accessories
+Critical Bracelet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,50.0,0.0,0,6500,1300,0,Accessories
+Empowering Ring,200.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Stimulating Ring,0.0,30.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Protective Ring,0.0,0.0,0.0,0.0,20.0,20.0,0.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Unerring Ring,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0,3000,600,0,Accessories
+Enlightening Ring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0,3000,600,0,Accessories
+Sprightly Ring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0.0,0,3000,600,0,Accessories
+Critical Ring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20.0,0.0,0,3000,600,0,Accessories
+Falcon Ring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,10.0,0,3000,600,0,Accessories
+Empowering Earring,50.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,280,56,0,Accessories
+Stimulating Earring,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,280,56,0,Accessories
+Protective Earring,0.0,0.0,0.0,0.0,10.0,10.0,0.0,0.0,0.0,0.0,0,280,56,0,Accessories
+Unerring Earring,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0,280,56,0,Accessories
+Enlightening Earring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0,280,56,0,Accessories
+Sprightly Earring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0.0,0,280,56,0,Accessories
+Critical Earring,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,10.0,0.0,0,280,56,0,Accessories
+Ancient Necklace,30.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,500,100,0,Accessories
+Wargod's Talisman,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,1800,360,0,Accessories
+Silver Locket,0.0,0.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,0.0,0,1800,360,0,Accessories
+Angel's Ring,0.0,30.0,0.0,0.0,0.0,20.0,0.0,0.0,0.0,0.0,0,6500,1300,0,Accessories
+Traveler's Charm,30.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0,150,30,0,Accessories
+Tattered Shoes,0.0,0.0,0.0,0.0,2.0,2.0,0.0,0.0,0.0,0.0,0,150,30,0,Accessories
+Inferno Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces fire damage.,13500,2700,0,Accessories
+Blizzard Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces ice damage.,13500,2700,0,Accessories
+Tempest Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces wind damage.,13500,2700,0,Accessories
+Thunderstorm Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces lightning damage.,13500,2700,0,Accessories
+Void Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces dark damage.,13500,2700,0,Accessories
+Gleaming Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Greatly reduces light damage.,13500,2700,0,Accessories
+Fire Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces fire damage.,6400,1280,0,Accessories
+Ice Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces ice damage.,6400,1280,0,Accessories
+Wind Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces wind damage.,6400,1280,0,Accessories
+Lightning Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces lightning damage.,6400,1280,0,Accessories
+Dark Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces dark damage.,6400,1280,0,Accessories
+Light Amulet,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Reduces light damage.,6400,1280,0,Accessories
+Antidote Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents poison.,7200,1440,0,Accessories
+Wakeful Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents sleep.,7200,1440,0,Accessories
+Articulate Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents silence.,7200,1440,0,Accessories
+Bright Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents blindness.,7200,1440,0,Accessories
+Calming Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents terror.,7200,1440,0,Accessories
+Clarity Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents confusion.,7200,1440,0,Accessories
+Conscious Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents unconsciousness.,7200,1440,0,Accessories
+Vivifying Stone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,Equip effect: Prevents instant death.,7200,1440,0,Accessories
