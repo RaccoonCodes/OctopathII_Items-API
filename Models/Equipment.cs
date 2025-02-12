@@ -15,14 +15,10 @@ namespace OctopathII_Items.Models
         public int Speed { get; set; }
         public int Critical {  get; set; }
         public int Evasion { get; set; }
-        public int Effect { get; set; }
+        public string Effect { get; set; } = string.Empty;
         public int Buy_Price { get; set; }
         public int Sell_Price { get; set; }
         public string Equipment_Type { get; set; } = string.Empty;
-
-
-
-
 
     }
 }
