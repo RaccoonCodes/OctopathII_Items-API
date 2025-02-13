@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using OctopathII_Items.Data;
+using OctopathII_Items.Models.Implementation;
+using OctopathII_Items.Models.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IItemsService,ItemService>();
 
 var app = builder.Build();
 
@@ -27,15 +31,14 @@ app.MapControllers();
 app.Run();
 
 /* Packages
- * Microsoft.EntityFrameworkCore version 8.0.11
- * Microsoft.EntityFrameworkCore.Tools version 8.0.11
- * Microsoft.EntityFrameworkCore.SqlServer version 8.0.11
- * Swashbuckle.AspNetCore --version 7.2.0
- * CsvHelper version 33.0.1
- * 
+ * Microsoft.EntityFrameworkCore 8.0.11
+ * Microsoft.EntityFrameworkCore.Tools 8.0.11
+ * Microsoft.EntityFrameworkCore.SqlServer 8.0.11
+ * Swashbuckle.AspNetCore 7.2.0
+ * CsvHelper 33.0.1
+ * System.Linq.Dynamic.Core 1.6.0.2
  * 
  * To do:
- * Start Seed Controller and populate
  * Start on Retrieval process such as DTO, Model, and controller.
  * 
  */
