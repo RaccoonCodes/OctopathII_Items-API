@@ -202,3 +202,147 @@ foreach (var record in csv.GetRecords<EquipmentRecord>())
 The data type that is used in the foreach loop is `Equipment` and, just like the previous method, it gets added to the database.
 
 The time complexity for this method is the same as the previous method `O(N + M)` where N is the number of existing records in the database and where M is the number of records in the CSV file.
+
+## PaginationHelper
+The `GeneratePaginationLinks` method is a static function class that generates pagination links for API responses. It constructs a SELF, NEXT, and PREVIOUS link to navigate between paginated results.
+
+```csharp
+public static List<LinkDTO> GeneratePaginationLinks(string baseUrl, string rel, string action, int pageIndex,
+    int pageSize, int totalPages, Dictionary<string, string>? additionalParams = null)
+{
+    var links = new List<LinkDTO>();
+
+    string BuildUrl(int index)
+    {
+        var queryParams = new Dictionary<string, string>()
+        {
+            { "pageIndex", index.ToString() },
+            { "pageSize", pageSize.ToString() }
+        };
+        if (additionalParams != null)
+        {
+            foreach (var param in additionalParams)
+            {
+                queryParams[param.Key] = param.Value;
+            }
+        }
+        var queryString = string.Join("&", queryParams
+            .Select(kvp => $"{HttpUtility.UrlEncode(kvp.Key)}={HttpUtility.UrlEncode(kvp.Value)}"));
+        return $"{baseUrl}?{queryString}";
+    }
+
+    // Self link
+    links.Add(new LinkDTO(BuildUrl(pageIndex), "self", action));
+
+    // Next link (if not on the last page)
+    if (pageIndex + 1 < totalPages)
+    {
+        links.Add(new LinkDTO(BuildUrl(pageIndex + 1), "next", action));
+    }
+
+    // Previous link (if not on the first page)
+    if (pageIndex > 0)
+    {
+        links.Add(new LinkDTO(BuildUrl(pageIndex - 1), "previous", action));
+    }
+
+    return links;
+}
+```
+
+In the parameters, it includes base Url, relationship, action, Index, page size, total pages, and a dictionary with any additional parameters that has been instantiated with null if not declared when called. The building URL process is in `BuildUrl`.
+
+## LinkDTO 
+This DTO class represents HATEOAS style links. It is the basis of constructing the link used in the `GeneratePaginationLinks`.
+```charp
+public class LinkDTO
+{
+    public string Href { get; private set; } //URLs
+    public string Rel { get; private set; } //Relationship
+    public string Type { get; private set; } //Type being send
+
+    public LinkDTO(string href, string rel, string type)
+    => (Href, Rel, Type) = (href, rel, type);
+}
+```
+setter are private which enforces the user to call the constructor in order to set the object with an LinkDTO.
+
+## Item Service
+This Implementation class host the business logic that will be used in `ItemController`.
+
+### GetItemsAsync
+This method retrieves data from the database. 
+```csharp
+ if(restDTO.PageIndex < 0 || restDTO.PageSize <= 0)
+ {
+     return new RestDTO<Item[]>()
+     {
+         Data = Array.Empty<Item>()
+     };
+ }
+ var query = _context.Items.AsNoTracking().AsQueryable();
+ 
+ if (!string.IsNullOrEmpty(restDTO.FilterQuery))
+ {
+     if (!string.IsNullOrEmpty(restDTO.SortColumn))
+     {
+         query = query.Where($"{restDTO.SortColumn}.Contains(@0)", restDTO.FilterQuery);
+     }
+     else
+     {
+         query = query.Where(q => q.Name.Contains(restDTO.FilterQuery));
+     }
+ }
+```
+
+Since we are only reading data, `AsNoTracking` is used to reduce memory consumption.  Afterwords, if filtering is applied then it will check if there is sorting. If there is, then it will apply the appropiate LINQ to the queryable before the execution. Otherwise, only add the filter to `Name` as a fallback. 
+
+```csharp
+ var recordCount = await query.CountAsync();
+
+ if(recordCount == 0)
+ {
+     return new RestDTO<Item[]>
+     {
+         Data = Array.Empty<Item>(),
+         PageIndex = restDTO.PageIndex,
+         PageSize = restDTO.PageSize,
+         RecordCount = recordCount,
+         Message = "No Records found for this input",
+         Links = new List<LinkDTO>()
+     };
+ }
+
+ var totalPages = (int)Math.Ceiling(recordCount / (double)restDTO.PageSize);
+
+ Item[]? result = await query.OrderBy($"{restDTO.SortColumn} {restDTO.SortOrder}")
+                 .Skip(restDTO.PageIndex * restDTO.PageSize)
+                 .Take(restDTO.PageSize)
+                 .ToArrayAsync();
+
+ var links = PaginationHelper.GeneratePaginationLinks(base_url, rel, action,
+    restDTO.PageIndex, restDTO.PageSize, totalPages, 
+    new Dictionary<string, string> {
+        { "SortColumn", restDTO.SortColumn ?? string.Empty },
+        { "SortOrder", restDTO.SortOrder ?? string.Empty },
+        { "FilterQuery", restDTO.FilterQuery ?? string.Empty }
+           }
+ );
+
+ return new RestDTO<Item[]>
+ {
+     Data = result,
+     PageIndex = restDTO.PageIndex,
+     PageSize = restDTO.PageSize,
+     RecordCount = recordCount,
+     TotalPages = totalPages,
+     Message = "Successful retrieval",
+     Links = links
+ };
+```
+
+After the record is counted from the `query` variable. If it is zero then it returns an empty data with appropiate information, otherwise, it will continue on the pagination and result of the query built and executed the list as an array. The return is an array of `RestDTO<Item[]>`
+
+The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes.
+
+## ItemController
