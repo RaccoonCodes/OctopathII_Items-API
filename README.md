@@ -343,7 +343,7 @@ Since we are only reading data, `AsNoTracking` is used to reduce memory consumpt
 
 After the record is counted from the `query` variable. If it is zero then it returns an empty data with appropiate information, otherwise, it will continue on the pagination and result of the query built and executed the list as an array. The return is an array of `RestDTO<Item[]>`
 
-The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes. Also `log n` comes from index filtering operation, `k` is representing skip operation during pagination and `p` where it represents takr operation where we return the numbe rof records in the result set. The Dominant term is `log n` however if `k` or `p` become large they can definetly play a role in terms of performance. In our case though, since the database is relatively small, the overall Time Complexity is `O(log n)`
+The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes. Also `log n` comes from index filtering operation, `k` is representing skip operation during pagination and `p` where it represents take operation where we return the number of records in the result set. The Dominant term is `log n` however if `k` or `p` become large they can definitely play a role in terms of performance. In our case though, since the database is relatively small, the overall Time Complexity is `O(log n)`
 
 ### RequestDTO
 This class contains properties and values used for API querries. It is a generic Data Transfer Object, or DTO, used to paginate and filter request made to the database. 
