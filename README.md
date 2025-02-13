@@ -343,6 +343,86 @@ Since we are only reading data, `AsNoTracking` is used to reduce memory consumpt
 
 After the record is counted from the `query` variable. If it is zero then it returns an empty data with appropiate information, otherwise, it will continue on the pagination and result of the query built and executed the list as an array. The return is an array of `RestDTO<Item[]>`
 
-The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes.
+The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes. Also `log n` comes from index filtering operation, `k` is representing skip operation during pagination and `p` where it represents takr operation where we return the numbe rof records in the result set. The Dominant term is `log n` however if `k` or `p` become large they can definetly play a role in terms of performance. In our case though, since the database is relatively small, the overall Time Complexity is `O(log n)`
+
+### RequestDTO
+This class contains properties and values used for API querries. It is a generic Data Transfer Object, or DTO, used to paginate and filter request made to the database. 
+
+```csharp
+public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+{
+    if (SortColumn != null)
+    {
+        var properties = typeof(T).GetProperties()
+            .Select(p => p.Name)
+            .ToHashSet(StringComparer.OrdinalIgnoreCase);
+
+        if (!properties.Contains(SortColumn))
+        {
+            yield return new ValidationResult(
+                $"SortColumn '{SortColumn}' is not a valid property of {typeof(T).Name}.",
+                new[] { nameof(SortColumn) });
+        }
+    }
+
+}
+```
+
+It uses Validation Attribute that I will get into below and a manual validation method for sorting column to run against sort column properties. The Column will be based on the object type used with the `RequestDTO<T>`
 
 ## ItemController
+This controller host api interaction to the database it comes with READ and EDIT Operations since the CSV file that we used has all the data needed and it is a set number items in the Octopath Traveler II game. This controller focuses on the Items in the game. 
+
+```csharp
+private readonly IItemsService _itemsService;
+public ItemsController(IItemsService itemsService)
+    => _itemsService = itemsService;
+
+```
+The controller depends on `IItemService` and uses Dependency injection to register it in the controller. 
+
+```csharp
+public async Task<ActionResult<RestDTO<Item[]>>> GetItems([FromQuery] RequestDTO<Item> requestDTO)
+{
+    RestDTO<Item[]> results = await _itemsService.GetItemsAsync(requestDTO, Url.Action(
+        null, "Items", null, Request.Scheme)!, "Self", "GET");
+
+    if (!results.Data.Any())
+    {
+        return results.Message != null
+            ? Ok(results.Message)
+            : BadRequest("Invalid pagination parameters. Ensure 'pageIndex' >= 0 and 'pageSize' > 0.");
+    }
+    return Ok(results);
+}
+
+```
+This method retrieves the data from the database from Item Table. As mention before, I've separated the business logic and HTTP response to maintain Separation of Concern Design Pattern. If everything is successful, it will return a JSON  response containing the data, links, messages, and other meta data such as filter, count, records,etc.
+
+## Attribute
+This folder holds validation used for the RequestDTO class needed to ensure valid data is used
+
+### SortOrderValidatorAttribute
+`SortOrderValidatorAttribute` is a custom validation class used for validating sorting order values. It ensures that the value provided is either "ASC" (ascending) or "DESC" (descending).
+
+```csharp
+public string[] AllowedValues { get; set; } = new[] { "ASC", "DESC" };
+
+public SortOrderValidatorAttribute() : base("Values must be one of the following {0}") { }
+
+protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+{
+    var strValue = value as string;
+    if (!string.IsNullOrEmpty(strValue) && AllowedValues.Contains(strValue))
+    {
+        return ValidationResult.Success;
+    }
+    return new ValidationResult(FormatErrorMessage(string.Join(", ", AllowedValues)));
+}
+```
+The class Extends `ValidationAttribute` to enable model property validation. The `AllowedValues` restricts validation option to two `ASC` and `DESC`. The base contructor sets an error message with a `{0}` placeholder and it gets replaced when an error occurs.
+
+In the `IsValid()` method, it checks the input if it is non-empty and it is of the allowed values. It returns a `ValidationResult.Success` if valid. Otherwise return an error message.
+
+
+
