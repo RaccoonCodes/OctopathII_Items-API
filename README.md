@@ -11,11 +11,17 @@ The Api Will retireve data information stored from the database. The database is
 These files last update was on 4/29/2024. There won't be future update on the list since these are set items and equipment in the game.
 
 The following column and information will be used and focused on 
+**Item**
 - Name
 - Price
 - Description
 - Item Type
 - sell price
+- buy price
+
+***Equipment**
+- everthing above
+- hp,sp,effect,def stats
 
 The database is hidden, so you will need to create your own database or use the local method for your editor. Once created, Implement the migrations, update database, and populate the values into database with the seed controller via Swagger.
 
