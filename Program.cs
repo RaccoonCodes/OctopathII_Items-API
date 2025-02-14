@@ -16,6 +16,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IItemsService,ItemService>();
+builder.Services.AddScoped<IEquipmentService,EquipmentService>();
 
 var app = builder.Build();
 
