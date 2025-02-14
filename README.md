@@ -443,7 +443,20 @@ This method retrieves the data from the database from Item Table. As mention bef
 This method updates existing information in the database within the table `Item`. It maps the options in the object `Item`. All the business work is in the `ItemService` class. This is method will handle its HTTP response. 
 
 ### GetInfo
-This method retrieves information based on name provided. Same as previous method, this will 
+```csharp
+public async Task<ActionResult<Item>> GetInfo(string name)
+{
+    Item? result = await _itemsService.GetInfoAsync(name);
+
+    if (result == null)
+    {
+        return NotFound(new { Message = "Item not found!" });
+    }
+    return Ok(result);
+
+}
+```
+This method retrieves information based on name provided. Same as previous method, this method focuses on HTTP response, the business work is done by ItemService 
 
 ## RequestDTO
 This class contains properties and values used for API querries. It is a generic Data Transfer Object, or DTO, used to paginate and filter request made to the database. 
