@@ -508,5 +508,36 @@ The class Extends `ValidationAttribute` to enable model property validation. The
 
 In the `IsValid()` method, it checks the input if it is non-empty and it is of the allowed values. It returns a `ValidationResult.Success` if valid. Otherwise return an error message.
 
+## Equipment Controller
+This controller houses manages equipment request to the database. Item and Equipment are separated since both have different properties in both database column and model.
+
+### GetEquipmentAsync
+Retrieves data from the database and returns an array of Equipment object. 
+```csharp
+public async Task<ActionResult<RestDTO<Equipment[]>>> GetEquipment([FromQuery]RequestDTO<Equipment> requestDTO)
+{
+    RestDTO<Equipment[]> results = await _equipmentService.GetEquipmentAsync(requestDTO, Url.Action(
+        null, "Items", null, Request.Scheme)!, "Self", "GET");
+
+    if (!results.Data.Any())
+    {
+        return results.Message != null
+            ? Ok(results.Message)
+            : BadRequest("Invalid pagination parameters. Ensure 'pageIndex' >= 0 and 'pageSize' > 0.");
+    }
+
+    return Ok(results);
+}
+```
+Again, as mentioned before, this returns only HTTP Response. The business logic is in `EquipmentService`.
+
+## EquipmentService
+All the methods within this class follows similar to `ItemService` just the only differnce is that the return type is `Equipment` instead of `Item`. The Time Complexity is also similar to or the same as `ItemService`. The `EquipmentService` inherits `IEquipmentService`.
+```csharp
+public interface IEquipmentService
+{
+    Task<RestDTO<Equipment[]>> GetEquipmentAsync(RequestDTO<Equipment> restDTO, string base_url, string rel, string action);
+}
+```
 
 
