@@ -1,6 +1,9 @@
 # OctopathII_Items
 This is a two part project for one of my favorite JRPG games, Octopath II, items. The list will conatain Items and Equipment such as weapons from the game. This repository focuses on the API part of the project. The Front-End is yet to be determined in terms of either it will be in Razor views or in Angular.
 
+## Quick Summary about Why I Chose Octopath
+Octopath Traveler is a JRPG game that is a world exploration turn based game. It's art is `HD-2D` meaning that the character and scenery is pixelated but it is rendered in higher quality keeping both old and modern style combination. There are 3 games in its series : Octopath Traveler, Octopath Traveler: Champions of the Continent, and Octopath Traveler II. The reason why I pick on working this personal project is because I love this game. It is definetly one of my top 3 favorite games that I have played through out my life. From its story and music, it is amazing. So I decided to work on Full stack solo project about this game. As mentioned above, this will mainly focus on Item and Equipment of the game along with its meta data.  
+
 ## Overview
 The Api Will retireve data information stored from the database. The database is populated by CSV files that are obtained by
 
