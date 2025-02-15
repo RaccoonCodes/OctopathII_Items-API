@@ -1,6 +1,9 @@
 # OctopathII_Items
 This is a two part project for one of my favorite JRPG games, Octopath II, items. The list will conatain Items and Equipment such as weapons from the game. This repository focuses on the API part of the project. The Front-End is yet to be determined in terms of either it will be in Razor views or in Angular.
 
+# Table of Contents
+1. [#Quick Summary about Why I Chose Octopath](#Quick-Summary-about-Why-I-Chose-Octopath)
+
 ## Quick Summary about Why I Chose Octopath
 Octopath Traveler is a JRPG game that is a world exploration turn based game. It's art is `HD-2D` meaning that the character and scenery is pixelated but it is rendered in higher quality keeping both old and modern style combination. There are 3 games in its series : Octopath Traveler, Octopath Traveler: Champions of the Continent, and Octopath Traveler II. The reason why I pick on working this personal project is because I love this game. It is definetly one of my top 3 favorite games that I have played through out my life. From its story and music, it is amazing. So I decided to work on Full stack solo project about this game. As mentioned above, this will mainly focus on Item and Equipment of the game along with its meta data.  
 
@@ -14,6 +17,7 @@ The Api Will retireve data information stored from the database. The database is
 These files last update was on 4/29/2024. There won't be future update on the list since these are set items and equipment in the game.
 
 The following column and information will be used and focused on 
+
 **Item**
 - Name
 - Price
@@ -22,13 +26,13 @@ The following column and information will be used and focused on
 - sell price
 - buy price
 
-***Equipment**
+**Equipment**
 - everthing above
 - hp,sp,effect,def stats
 
 The database is hidden, so you will need to create your own database or use the local method for your editor. Once created, Implement the migrations, update database, and populate the values into database with the seed controller via Swagger.
 
-## Packages
+## Packages and Framework
 The following packages was used in this project:
 
 `Microsoft.EntityFrameworkCore 8.0.11`
@@ -40,6 +44,8 @@ The following packages was used in this project:
 `Swashbuckle.AspNetCore 7.2.0`
 
 `CsvHelper version 33.0.1`
+
+The Version used in this project is `.NET 8` and its SDK version is `8.0.404`
 
 ## ApplicationDB
 
@@ -557,4 +563,8 @@ public interface IEquipmentService
 }
 ```
 
+## Conclusion
+This backend project is the API part for retrieving data from the database. The front end framework will be determine later on, though most likely it will be in Angular since I, personally, want to get into working in Typescript as well. Any Updates or edit to this project will be posted at the top of this README Section!
+
+Have a Nice Day!
 
