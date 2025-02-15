@@ -9,7 +9,7 @@ namespace OctopathII_Items.DTO
         [DefaultValue(0)] //for swagger
         public int PageIndex { get; set; } = 0;
 
-        [DefaultValue(10)]
+        [DefaultValue(15)]
         [Range(1, 100)]
         public int PageSize { get; set; } = 15;
 

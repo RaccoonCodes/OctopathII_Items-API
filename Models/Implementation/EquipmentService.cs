@@ -17,69 +17,67 @@ namespace OctopathII_Items.Models.Implementation
         //O(log n + k + p)
         public async Task<RestDTO<Equipment[]>> GetEquipmentAsync(RequestDTO<Equipment> restDTO, string base_url, string rel, string action)
         {
-            if(restDTO.PageIndex < 0 || restDTO.PageSize <= 0)
-            {
-                return new RestDTO<Equipment[]>()
-                {
-                    Data = []
-                };
-            }
-
             var query = _context.Equipment.AsNoTracking().AsQueryable();
-
-            if (!string.IsNullOrEmpty(restDTO.FilterQuery))
-            {
-                if (!string.IsNullOrEmpty(restDTO.SortColumn))
-                {
-                    query = query.Where($"{restDTO.SortColumn}.Contains(@0)", restDTO.FilterQuery);
-                }
-                else
-                {
-                    query = query.Where(q => q.Name.Contains(restDTO.FilterQuery));
-                }
-            }
-            var recordCount = await query.CountAsync();
-
-            if(recordCount == 0)
-            {
-                return new RestDTO<Equipment[]>()
-                {
-                    Data = Array.Empty<Equipment>(),
-                    PageIndex = restDTO.PageIndex,
-                    PageSize = restDTO.PageSize,
-                    RecordCount = recordCount,
-                    Message = "No Records found for this input",
-                    Links = new List<LinkDTO>()
-                };
-            }
-
-            var totalPages = (int)Math.Ceiling(recordCount / (double)restDTO.PageSize);
-           
-            Equipment[]? result = await query.OrderBy($"{restDTO.SortColumn} {restDTO.SortOrder}")
-                            .Skip(restDTO.PageIndex * restDTO.PageSize)
-                            .Take(restDTO.PageSize)
-                            .ToArrayAsync();
-
-            var links = PaginationHelper.GeneratePaginationLinks(base_url, rel, action,
-               restDTO.PageIndex, restDTO.PageSize, totalPages,
-               new Dictionary<string, string> {
-                   { "SortColumn", restDTO.SortColumn ?? string.Empty },
-                   { "SortOrder", restDTO.SortOrder ?? string.Empty },
-                   { "FilterQuery", restDTO.FilterQuery ?? string.Empty }
-                      }
-            );
-
-            return new RestDTO<Equipment[]>()
-            {
-                Data = result,
-                PageIndex = restDTO.PageIndex,
-                PageSize = restDTO.PageSize,
-                RecordCount = recordCount,
-                TotalPages = totalPages,
-                Message = "Successful retrieval",
-                Links = links
-            };
-
+            return await GenericPaginatedData.GetPaginatedDataAsync(restDTO, query, base_url, rel, action);
         }
+
+
+        public async Task<Equipment?> PutEquipmentAsync(Equipment equipment)
+        {
+            Equipment? updatedEquip = await _context.Equipment.FirstOrDefaultAsync(x => x.Name == equipment.Name);
+
+            if(updatedEquip == null)
+            {
+                return null;
+            }
+
+            updatedEquip.Max_Hp = equipment.Max_Hp;
+            updatedEquip.Max_SP = equipment.Max_SP;
+            updatedEquip.Physical_Atk = equipment.Physical_Atk;
+            updatedEquip.Elemental_Atk = equipment.Elemental_Atk;
+            updatedEquip.Physical_Def = equipment.Physical_Def;
+            updatedEquip.Elemental_Def = equipment.Elemental_Def;
+            updatedEquip.Accuracy = equipment.Accuracy;
+            updatedEquip.Speed = equipment.Speed;
+            updatedEquip.Critical = equipment.Critical;
+            updatedEquip.Evasion = equipment.Evasion;
+            updatedEquip.Effect = equipment.Effect;
+            updatedEquip.Buy_Price = equipment.Buy_Price;
+            updatedEquip.Sell_Price = equipment.Sell_Price;
+            updatedEquip.Equipment_Type = equipment.Equipment_Type;
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while updating the item.", ex);
+            }
+            return updatedEquip;
+        }
+        public async Task<Equipment?> GetInfoEquipment(string name)
+        {
+            return await _context.Equipment.AsNoTracking().Where(x => x.Name == name).Select(s => new Equipment
+            {
+                Name = s.Name,
+                Max_Hp = s.Max_Hp,
+                Max_SP = s.Max_SP,
+                Physical_Atk = s.Physical_Atk,
+                Elemental_Atk = s.Elemental_Atk,
+                Physical_Def = s.Physical_Def,
+                Elemental_Def = s.Elemental_Def,
+                Accuracy = s.Accuracy,
+                Speed = s.Speed,
+                Critical = s.Critical,
+                Evasion = s.Evasion,
+                Effect = s.Effect,
+                Buy_Price = s.Buy_Price,
+                Sell_Price = s.Sell_Price,
+                Equipment_Type = s.Equipment_Type
+            }).FirstOrDefaultAsync();
+        }
+
+
+
     }
 }

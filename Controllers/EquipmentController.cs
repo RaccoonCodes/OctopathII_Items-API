@@ -19,7 +19,7 @@ namespace OctopathII_Items.Controllers
         public async Task<ActionResult<RestDTO<Equipment[]>>> GetEquipment([FromQuery]RequestDTO<Equipment> requestDTO)
         {
             RestDTO<Equipment[]> results = await _equipmentService.GetEquipmentAsync(requestDTO, Url.Action(
-                null, "Items", null, Request.Scheme)!, "Self", "GET");
+                null, "Equipment", null, Request.Scheme)!, "Self", "GET");
 
             if (!results.Data.Any())
             {
@@ -29,6 +29,30 @@ namespace OctopathII_Items.Controllers
             }
 
             return Ok(results);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<Equipment>> PutEquipment([FromBody]Equipment equipment)
+        {
+            Equipment? result = await _equipmentService.PutEquipmentAsync(equipment);
+
+            if (result == null)
+            {
+                return NotFound("Error: Name of the item is not found!");
+            }
+            return Ok(result);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<Equipment>> GetInfo(string name)
+        {
+            Equipment? result = await _equipmentService.GetInfoEquipment(name);
+
+            if (result == null)
+            {
+                return NotFound(new { Message = "Item not found!" });
+            }
+            return Ok(result);
         }
     }
 }
