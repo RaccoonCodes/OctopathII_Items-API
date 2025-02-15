@@ -2,6 +2,10 @@
 
 namespace OctopathII_Items.Attribute
 {
+    //UNUSED! Originally meant to be used for RequestDTO but changed its type from being strongly to
+    //Generic which its type is needed to be known at compiled time. So this operation is moved to
+    //RequestDTO file
+
     public class SortColumnValidatorAttribute : ValidationAttribute
     {
         private readonly Type _entityType;
