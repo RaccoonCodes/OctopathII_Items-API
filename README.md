@@ -1,6 +1,9 @@
 # OctopathII_Items
 This is a two part project for one of my favorite JRPG games, Octopath II, items. The list will conatain Items and Equipment such as weapons from the game. This repository focuses on the API part of the project. The Front-End is yet to be determined in terms of either it will be in Razor views or in Angular.
 
+## Quick Summary about Why I Chose Octopath
+Octopath Traveler is a JRPG game that is a world exploration turn based game. It's art is `HD-2D` meaning that the character and scenery is pixelated but it is rendered in higher quality keeping both old and modern style combination. There are 3 games in its series : Octopath Traveler, Octopath Traveler: Champions of the Continent, and Octopath Traveler II. The reason why I pick on working this personal project is because I love this game. It is definetly one of my top 3 favorite games that I have played through out my life. From its story and music, it is amazing. So I decided to work on Full stack solo project about this game. As mentioned above, this will mainly focus on Item and Equipment of the game along with its meta data.  
+
 ## Overview
 The Api Will retireve data information stored from the database. The database is populated by CSV files that are obtained by
 
@@ -277,80 +280,7 @@ setter are private which enforces the user to call the constructor in order to s
 This Implementation class host the business logic that will be used in `ItemController`.
 
 ### GetItemsAsync
-This method retrieves data from the database. 
-```csharp
- if(restDTO.PageIndex < 0 || restDTO.PageSize <= 0)
- {
-     return new RestDTO<Item[]>()
-     {
-         Data = Array.Empty<Item>()
-     };
- }
- var query = _context.Items.AsNoTracking().AsQueryable();
- 
- if (!string.IsNullOrEmpty(restDTO.FilterQuery))
- {
-     if (!string.IsNullOrEmpty(restDTO.SortColumn))
-     {
-         query = query.Where($"{restDTO.SortColumn}.Contains(@0)", restDTO.FilterQuery);
-     }
-     else
-     {
-         query = query.Where(q => q.Name.Contains(restDTO.FilterQuery));
-     }
- }
-```
-
-Since we are only reading data, `AsNoTracking` is used to reduce memory consumption.  Afterwords, if filtering is applied then it will check if there is sorting. If there is, then it will apply the appropiate LINQ to the queryable before the execution. Otherwise, only add the filter to `Name` as a fallback. 
-
-```csharp
- var recordCount = await query.CountAsync();
-
- if(recordCount == 0)
- {
-     return new RestDTO<Item[]>
-     {
-         Data = Array.Empty<Item>(),
-         PageIndex = restDTO.PageIndex,
-         PageSize = restDTO.PageSize,
-         RecordCount = recordCount,
-         Message = "No Records found for this input",
-         Links = new List<LinkDTO>()
-     };
- }
-
- var totalPages = (int)Math.Ceiling(recordCount / (double)restDTO.PageSize);
-
- Item[]? result = await query.OrderBy($"{restDTO.SortColumn} {restDTO.SortOrder}")
-                 .Skip(restDTO.PageIndex * restDTO.PageSize)
-                 .Take(restDTO.PageSize)
-                 .ToArrayAsync();
-
- var links = PaginationHelper.GeneratePaginationLinks(base_url, rel, action,
-    restDTO.PageIndex, restDTO.PageSize, totalPages, 
-    new Dictionary<string, string> {
-        { "SortColumn", restDTO.SortColumn ?? string.Empty },
-        { "SortOrder", restDTO.SortOrder ?? string.Empty },
-        { "FilterQuery", restDTO.FilterQuery ?? string.Empty }
-           }
- );
-
- return new RestDTO<Item[]>
- {
-     Data = result,
-     PageIndex = restDTO.PageIndex,
-     PageSize = restDTO.PageSize,
-     RecordCount = recordCount,
-     TotalPages = totalPages,
-     Message = "Successful retrieval",
-     Links = links
- };
-```
-
-After the record is counted from the `query` variable. If it is zero then it returns an empty data with appropiate information, otherwise, it will continue on the pagination and result of the query built and executed the list as an array. The return is an array of `RestDTO<Item[]>`
-
-The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes. Also `log n` comes from index filtering operation, `k` is representing skip operation during pagination and `p` where it represents take operation where we return the number of records in the result set. The Dominant term is `log n` however if `k` or `p` become large they can definitely play a role in terms of performance. In our case though, since the database is relatively small, the overall Time Complexity is `O(log n)`
-
+This method and the method for `Equipment` in `EquipmentService` share the same procedure. So instead of rewriting the same code but with different object types, I created a generic static class that allows both of these method to use it. It is called  `GetPaginatedDataAsync` in `Extension` folder. It will be mention below this section. The time Complexity for this method is mentioned in `GetPaginatedDataAsync`
 
 ### PutItemAsync
 This method updates information already existing in the database. Its parameters takes object `Item`
@@ -464,6 +394,84 @@ public async Task<ActionResult<Item>> GetInfo(string name)
 ```
 This method retrieves information based on name provided. Same as previous method, this method focuses on HTTP response, the business work is done by ItemService 
 
+## GetPaginatedDataAsync
+This generic static class is used for the GET method mentioned in both Item and Equipment Services. It retrives paginated, filtered, and sorted information from the database based on the data type used for this method. It also includes Links used for pagination. 
+```csharp
+ public static async Task<RestDTO<T[]>> GetPaginatedDataAsync<T>(
+     RequestDTO<T> requestDTO, IQueryable<T> query,
+     string base_url, string rel, string action) where T : class
+ {
+     if (requestDTO.PageIndex < 0 || requestDTO.PageSize <= 0)
+     {
+         return new RestDTO<T[]>()
+         {
+             Data = []
+         };
+     }
+
+     // Apply filtering
+     if (!string.IsNullOrEmpty(requestDTO.FilterQuery))
+     {
+         if (!string.IsNullOrEmpty(requestDTO.SortColumn))
+         {
+             query = query.Where($"{requestDTO.SortColumn}.Contains(@0)", requestDTO.FilterQuery);
+         }
+         else if (typeof(T).GetProperty("Name") != null)
+         {
+             query = query.Where("Name.Contains(@0)", requestDTO.FilterQuery);
+         }
+     }
+```
+First, it checks the index and size that the user has input and validate. Afterwords the Filtering and a fallback is used when filtering and sorting is used. 
+```csharp
+var recordCount = await query.CountAsync();
+
+if (recordCount == 0)
+{
+    return new RestDTO<T[]>
+    {
+        Data = Array.Empty<T>(),
+        PageIndex = requestDTO.PageIndex,
+        PageSize = requestDTO.PageSize,
+        RecordCount = recordCount,
+        Message = "No Records found for this input",
+        Links = new List<LinkDTO>()
+    };
+}
+
+var totalPages = (int)Math.Ceiling(recordCount / (double)requestDTO.PageSize);
+
+T[]? result = await query.OrderBy($"{requestDTO.SortColumn} {requestDTO.SortOrder}")
+                .Skip(requestDTO.PageIndex * requestDTO.PageSize)
+                .Take(requestDTO.PageSize)
+                .ToArrayAsync();
+
+var links = PaginationHelper.GeneratePaginationLinks(base_url, rel, action,
+    requestDTO.PageIndex, requestDTO.PageSize, totalPages,
+    new Dictionary<string, string> {
+        { "SortColumn", requestDTO.SortColumn ?? string.Empty },
+        { "SortOrder",  requestDTO.SortOrder ?? string.Empty },
+        { "FilterQuery", requestDTO.FilterQuery ?? string.Empty }
+    }
+);
+```
+Afterword, it counts the current container in `query` to count the records. If it is 0, then it return an empty `Rest<T>` type. Pagination is applied and since this method is a generic type, The array is of type `T` when query is called and set as an array. The links are generated via `GeneratePaginationLinks` helper which was already mentioned before. 
+```csharp
+ return new RestDTO<T[]>
+ {
+     Data = result,
+     PageIndex = requestDTO.PageIndex,
+     PageSize = requestDTO.PageSize,
+     RecordCount = recordCount,
+     TotalPages = totalPages,
+     Message = "Successful retrieval",
+     Links = links
+ };
+```
+Finally, it return a `RestDTO<T>` object that can depend which data type is being used.
+
+The Time Complexity of the method is `O(log n + k + p)` as indexes are applied appropriately which can be shown in my Fluent API classes. Also `log n` comes from index filtering operation, `k` is representing skip operation during pagination and `p` where it represents take operation where we return the number of records in the result set. The Dominant term is `log n` however if `k` or `p` become large they can definitely play a role in terms of performance. In our case though, since the database is relatively small, the overall Time Complexity is `O(log n)`
+
 ## RequestDTO
 This class contains properties and values used for API querries. It is a generic Data Transfer Object, or DTO, used to paginate and filter request made to the database. 
 
@@ -543,6 +551,9 @@ All the methods within this class follows similar to `ItemService` just the only
 public interface IEquipmentService
 {
     Task<RestDTO<Equipment[]>> GetEquipmentAsync(RequestDTO<Equipment> restDTO, string base_url, string rel, string action);
+ Task<Equipment?> PutEquipmentAsync(Equipment equipment);
+ Task<Equipment?> GetInfoEquipment(string name);
+
 }
 ```
 
