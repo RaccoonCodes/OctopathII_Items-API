@@ -20,6 +20,8 @@ builder.Services.AddScoped<IEquipmentService,EquipmentService>();
 
 var app = builder.Build();
 
+app.UseHttpsRedirection();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -38,8 +40,5 @@ app.Run();
  * Swashbuckle.AspNetCore 7.2.0
  * CsvHelper 33.0.1
  * System.Linq.Dynamic.Core 1.6.0.2
- * 
- * To do:
- * Start on Retrieval process such as DTO, Model, and controller.
  * 
  */
